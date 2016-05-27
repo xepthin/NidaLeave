@@ -315,7 +315,7 @@
         var htmlBody = "";
         htmlBody += "";
 
-        $("#tbLeave tboody").append(htmlBody);
+        $("#tbLeave tboody").append(htmlBody); 
 
         function leaveRequest(leaveType) {
             $("#leaveTitle").text(leaveType);
