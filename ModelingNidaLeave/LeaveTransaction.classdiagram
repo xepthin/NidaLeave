@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c9f32aa7-b47c-4330-9ca0-ea938823fa31" name="LeaveTransaction" linkedPackageId="3ed7b3c3-71f5-417f-87c6-98c4369abd65" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="2de157dd-8733-4aac-932b-e7a642ad55d0" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="09297428-f5f7-46ba-ad29-eaebb377fa7f" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ef7cb191-1242-4478-ad19-4f06716cf12f">
+          <propertyInstance Id="06dda028-7fdc-4aa3-a01d-c14d011719dd" name="BaseName">
+            <elementDefinition Id="f7640405-eb20-4068-a069-fb717e33386f" />
+          </propertyInstance>
+          <elementDefinition Id="bd302c3a-8fd5-40c5-acf5-af07bf5ae60a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f2768564-0bd9-4049-b0eb-ebcf1a3fd65f">
+          <propertyInstance Id="5af42f72-04b3-4c99-aac1-a7dc58cad8aa" name="ClrAttributes">
+            <elementDefinition Id="08bc138f-ec89-4d5e-90cb-adb41ea147ed" />
+          </propertyInstance>
+          <elementDefinition Id="5d5401c0-e423-4fdc-b067-5c7889272864" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3b8f5112-d83a-41f0-90db-2e9549619230">
+          <propertyInstance Id="320acaf2-2dec-4d31-b246-cd00c29ec8e2" name="Usings">
+            <elementDefinition Id="b0df9eac-907e-4d4c-adca-5bc782a24dc2" />
+          </propertyInstance>
+          <elementDefinition Id="09c8115d-e817-419d-ba42-833d017edd6d" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="19594510-52c1-4e41-8cce-4af385ca0206" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="a0f3cd01-cf09-4cb3-af45-060b9c33f36f" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8b620ac1-3ac9-488f-ad3b-5f9efe36e564">
+          <propertyInstance Id="231ef573-80bd-4444-956b-08b69aac3c04" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="956a475b-0889-4a83-b49b-f69fda594d37" />
+          </propertyInstance>
+          <elementDefinition Id="82c310b1-fa90-4878-8927-723f026718c3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1678ff52-8f92-4258-a60d-902b60120fb7">
+          <propertyInstance Id="a899b143-9f44-49a6-a4ea-4e5bcafd224d" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="b8649614-d5b5-4164-b347-19c953ebf254" />
+          </propertyInstance>
+          <elementDefinition Id="96b21e6b-77ee-4281-a845-56bb0d106d23" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="456c90dd-dd27-436c-866f-928dbdd8a030">
+          <propertyInstance Id="800bfd75-99e7-46e6-a099-582e72164660" name="ProjectPath" value="ClassTemplate=..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj|EnumTemplate=..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj|InterfaceTemplate=..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj|StructTemplate=..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj">
+            <elementDefinition Id="abc966ce-cf48-401a-9324-e47a2013aef6" />
+          </propertyInstance>
+          <elementDefinition Id="b5d2db39-3ef2-4151-8426-d87ffab758ef" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="16eb2986-d9a4-43fe-8d29-4870cfd927d9">
+          <propertyInstance Id="24d530ab-401f-4d37-a77f-f44dea43b7c6" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="d1536010-f480-41c4-9606-5e76f11278a5" />
+          </propertyInstance>
+          <elementDefinition Id="61aad6f2-7493-4544-b0b9-0e69b04f2d90" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="902e359b-620b-4ef2-907b-6c76e7d68bf3">
+          <propertyInstance Id="198782cf-9d47-4a1e-9c25-52825fd23e78" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="fc1bd428-7793-48b1-b9a4-1180c9963091" />
+          </propertyInstance>
+          <elementDefinition Id="d218b8bf-2879-4028-a8b7-cf9fb61b388b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c83ed8c7-3f03-4f80-806b-108628760e4a">
+          <propertyInstance Id="eb19ee83-36e6-414c-9da3-5e44238dfc18" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="f9cf1789-5b4e-4f51-b8d7-2716629eb001" />
+          </propertyInstance>
+          <elementDefinition Id="d10d0767-1bc4-47e1-8adf-83cbdfdc1c8d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2c26e946-7f6c-4384-a3ba-63b3bf8e93a3">
+          <propertyInstance Id="32679de9-8010-4cf3-ad38-327a526ce2ba" name="Parameters">
+            <elementDefinition Id="f77f6ccc-350a-4cea-9998-b82b915b006c" />
+          </propertyInstance>
+          <elementDefinition Id="5c136a7e-3d0c-44e4-a70e-6ebd35b31fc3" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="406361d9-f3c8-4de0-827a-06768573876d">
+      <profileInstance Id="57b698d3-b083-4efe-b7ac-18531ed1c2a2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0a1c991d-98b3-40d3-823c-9b723b32bb10">
+      <profileInstance Id="88f29fb1-bfaa-4d04-89c3-ef09524d965d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="27ebedea-e5ce-4580-a35f-a2c7e05a7eca">
+      <profileInstance Id="e7ac72af-fa6e-46fc-a1be-00329d4d7d88" name="CSharpProfile">
+        <elementDefinition Id="9fd48017-4435-437e-955d-ef65a84dc5f0" />
+      </profileInstance>
+      <elementDefinition Id="46809f9b-dc9c-48e6-bb7a-400593fe7b5d" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dde603ea-1bec-46d3-b4fd-49c82101d570">
+      <profileInstance Id="ee27916c-6dd6-4b88-a932-351345ddac95" name="TextTemplateBindings">
+        <elementDefinition Id="01e933f4-c489-4fee-b9bb-30e3e887e2a5" />
+      </profileInstance>
+      <elementDefinition Id="9dac4ad6-4c95-4c47-88a6-afdc0524b058" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="764cb1b1-6fa6-4758-abf7-ffc2e48af4fb" name="LeaveBenefit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="0a122eba-2beb-43d8-b9e8-8d0a0c03abce" name="class" profile="CSharpProfile">
+            <elementDefinition Id="95678965-b906-4dc6-8244-b2d1fac10513" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b4c0c23f-127b-47c9-9fc4-c030c9947e45">
+                <propertyInstance Id="4c5cb675-ca1c-473a-ab42-d622f576d572" name="ClrAttributes">
+                  <elementDefinition Id="7d99e8d1-084b-4a60-8805-63aedfb8d2a2" />
+                </propertyInstance>
+                <elementDefinition Id="d0809a5e-a0be-40fb-9609-2f2dc17c4a60" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="62990a47-d4ab-46bf-bc45-1280ba1e6f16">
+                <propertyInstance Id="b29ef0c6-0825-4926-b7c9-4a472f243406" name="IsPartial" value="false">
+                  <elementDefinition Id="72db07de-527f-4fca-ba8a-67df1bc04e7f" />
+                </propertyInstance>
+                <elementDefinition Id="63404cc3-966b-469f-b27d-31d50e8cf70b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ca896868-9dc4-404f-b3cd-845b0ef94310">
+                <propertyInstance Id="62fbe7ba-3a15-4f75-8c9c-4da0bc1e8d0b" name="IsStatic" value="false">
+                  <elementDefinition Id="7737d7ef-20af-4a57-9fa5-448eeea24dc3" />
+                </propertyInstance>
+                <elementDefinition Id="2d09238d-db5f-4552-b9fd-c13959cd658b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b48ac220-b1cb-42f2-af84-a8389aa52af5">
+                <propertyInstance Id="a0661be3-7db8-4e27-bccc-3438693ad040" name="IsUnsafe" value="false">
+                  <elementDefinition Id="0eb4ca76-4824-49db-b652-29ecb22f1180" />
+                </propertyInstance>
+                <elementDefinition Id="28c932f7-962c-4cca-8743-30c822f64c84" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bb5d4264-f8c1-426e-816b-df7056e40812">
+                <propertyInstance Id="8d4991f6-5db9-477b-a4ef-76af946d623e" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="dbb53a9a-54ff-4deb-981c-bd41f7aa4c50" />
+                </propertyInstance>
+                <elementDefinition Id="542445e0-3fd7-488a-b6a6-a086cc47590c" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="dae8bc1c-7d28-4237-8173-20f20733c16e" />
+        <ownedAttributesInternal>
+          <property Id="f0fb3daf-ffea-42e1-82be-8617cc080684" name="title" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0c5ff7cd-912b-4477-afdf-81542250eb03" name="property" profile="CSharpProfile">
+                <elementDefinition Id="20ce9e7e-9a0a-46f4-8dd0-ec06b01b98ed" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9ad5857d-8d6c-42ac-8f19-e4385aae3cec">
+                    <propertyInstance Id="57608c9e-02e5-4245-a19b-c0142ae189e4" name="ClrAttributes">
+                      <elementDefinition Id="f813dcba-7357-4789-bcbe-ac33779c8f74" />
+                    </propertyInstance>
+                    <elementDefinition Id="f7caa398-55f1-4cf8-87e3-8b1f6f909f64" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="980a247c-9148-457f-a8ee-2170dbc8e730">
+                    <propertyInstance Id="cee0325e-3ce8-40b1-b547-3ed6a83b8d56" name="Get" value="none">
+                      <elementDefinition Id="d3e39a0e-39df-4470-b69f-1e63d70801d7" />
+                    </propertyInstance>
+                    <elementDefinition Id="b572ac1e-f5ba-4d73-a782-bfd4eb343f2e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8014c1b5-54fb-4ef8-a387-60ae39f7a430">
+                    <propertyInstance Id="c112e8bb-ee98-4ad1-8413-e7def65ec7f3" name="HasBody" value="false">
+                      <elementDefinition Id="4e59b5bf-c639-4772-be11-7daf4f36c587" />
+                    </propertyInstance>
+                    <elementDefinition Id="ff34c288-d577-4617-b5f8-1a4ee33fb3ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="87a00243-32f2-495a-9597-5b666e8ce6c5">
+                    <propertyInstance Id="82b0069e-fae7-4a8d-ba5c-f3ce2b7fb024" name="IsUnsafe" value="false">
+                      <elementDefinition Id="65c83b13-48aa-4444-a48e-b9f65f5e5847" />
+                    </propertyInstance>
+                    <elementDefinition Id="14e213ce-6992-41f3-9dcb-cea776dbe32c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f6dda694-e9bf-43b5-93c0-3e8824e190a4">
+                    <propertyInstance Id="f7abe7a9-ca0e-44a7-b97a-01f83add435a" name="Inheritance" value="none">
+                      <elementDefinition Id="0bb4dce7-3419-4910-b2d2-ceb8a7dd1ca4" />
+                    </propertyInstance>
+                    <elementDefinition Id="36bbd507-fa18-4585-a0a3-fe573e6e4922" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="33e90704-c2cb-43f4-bf2b-4831840db1ec">
+                    <propertyInstance Id="637f8a47-977c-4d44-87ca-6b4112df1c7c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2b4b0984-1ea8-424f-b0cd-4ed7c96fb50d" />
+                    </propertyInstance>
+                    <elementDefinition Id="e9ab1b50-5ae6-4dcd-a52b-7d668413aacb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08c9fb45-62c6-48ad-a76d-3a7998e8d909">
+                    <propertyInstance Id="06b4bf5c-b23b-4c27-ab8e-c5b19cde8760" name="Set" value="none">
+                      <elementDefinition Id="1df8b0dd-d028-4484-8b29-f55e17be7d4c" />
+                    </propertyInstance>
+                    <elementDefinition Id="e99dc485-9b31-46f1-a23f-983d2ceccd2d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="fa0a958e-e6bc-4ab7-a926-72fe4becd87a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="00a27eb5-ad48-47df-863f-c233b8dd70f1" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="8e331137-a743-4604-b839-f80a08c9fc42" name="effectivePeriod" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4e9cc1bc-bc6b-48de-bd44-0b3ea0a6ac7c" name="property" profile="CSharpProfile">
+                <elementDefinition Id="78405ea2-5f05-4703-a461-db993320dfa4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="12d9e45e-137e-42d0-8c59-217d88eddb4b">
+                    <propertyInstance Id="4a0d6023-72d6-40dc-abcd-75380c1c3043" name="ClrAttributes">
+                      <elementDefinition Id="45e2da00-b740-48ac-ad38-9c613bc1388c" />
+                    </propertyInstance>
+                    <elementDefinition Id="4393e5b5-b9c6-4cd9-8d73-05a7ae292b18" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2ee19469-9b6d-45c3-ae05-7a6a3916f537">
+                    <propertyInstance Id="f28302db-b1ed-49bf-9db7-d8a93048433c" name="Get" value="none">
+                      <elementDefinition Id="c0d1797d-784c-4261-ae6d-302f3e85db36" />
+                    </propertyInstance>
+                    <elementDefinition Id="c8eeece4-123d-4239-a18f-7a2b648f5555" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2dfbe006-2018-43c8-bf1e-6f0bb6df0604">
+                    <propertyInstance Id="fa7c9df4-17f1-4671-af49-dab0471d90ae" name="HasBody" value="false">
+                      <elementDefinition Id="63d2f942-fe66-4f5c-bb83-8d0829926cc5" />
+                    </propertyInstance>
+                    <elementDefinition Id="8b0b8a6e-c968-4144-98ce-842bcd19fc5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5ce1187f-6a98-42c7-859c-e448cc7d1c7a">
+                    <propertyInstance Id="f6b077d5-c451-46b3-aa57-928157ff9c9c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="edb1cb41-0b25-4689-87c8-a2331c4f0e93" />
+                    </propertyInstance>
+                    <elementDefinition Id="fa88ddb5-8518-4ca3-80bb-202bdd7d088c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="de646094-dfb9-4e39-980b-2556b32947c2">
+                    <propertyInstance Id="9a181a96-3d63-4805-96f8-24847f85a8a3" name="Inheritance" value="none">
+                      <elementDefinition Id="76d93de2-1fc9-42c1-82ab-9654bd901b27" />
+                    </propertyInstance>
+                    <elementDefinition Id="03b799a7-2f50-4215-bb07-0e0b98c62047" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7011bc05-04f9-430c-b226-7c0cedb99857">
+                    <propertyInstance Id="4c2a8fb7-798b-4d51-90c9-d631090b24e5" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="4a858488-2ec3-4110-bd3e-624beba557d5" />
+                    </propertyInstance>
+                    <elementDefinition Id="13c5d4e9-7dcd-4b38-981b-a8901859699c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e29fe7d-998c-4e5a-ac2a-3c44d71418cc">
+                    <propertyInstance Id="b2ac74d8-930b-406f-9ef5-9c6cc07d3bc5" name="Set" value="none">
+                      <elementDefinition Id="c2f9b4de-2f4e-4b12-905d-63d106b7d3f3" />
+                    </propertyInstance>
+                    <elementDefinition Id="6db4c2ff-8014-4263-9fde-5657cb2bd2ec" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5dc113e9-88f4-4a0c-bde2-747800ac05d9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="20cfab81-3784-4621-b0c8-151a68f67938" LastKnownName="TimeInterval" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="00a27eb5-ad48-47df-863f-c233b8dd70f1" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="20cfab81-3784-4621-b0c8-151a68f67938" name="TimeInterval" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::TimeInterval">
+        <elementDefinition Id="0242b137-42ca-4bc4-82dd-9c63dea1e952" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4b77998a-60d5-4ae1-95bb-ac0ff007e15b" name="LeaveRequest" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="cc42a353-65ff-463d-9f43-56e8f70ad0fb" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c989c095-fc15-46d3-b1ce-17bdbf0bb34a" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4fbc33fc-d830-44c0-94e8-d748f916613d">
+                <propertyInstance Id="7616a14b-66be-4678-a696-bad48ca1fd44" name="ClrAttributes">
+                  <elementDefinition Id="3e846e9b-0a14-47c6-8ada-220014844976" />
+                </propertyInstance>
+                <elementDefinition Id="a07dc354-9dfd-4f0e-ada5-c2889335c0a7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9143b66f-5d3c-45e2-b01f-d79179edadf6">
+                <propertyInstance Id="c2d8afb1-f43d-42aa-bd45-b9ad27d28067" name="IsPartial" value="false">
+                  <elementDefinition Id="e5d06277-7cc4-4f12-af19-3152a7ea3505" />
+                </propertyInstance>
+                <elementDefinition Id="ca16c493-b6aa-40b8-a572-6d1167beee07" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7cbdd1f8-4721-4ac5-af40-548109cf5faf">
+                <propertyInstance Id="d5840b63-63bf-4a58-a76b-4d0567528429" name="IsStatic" value="false">
+                  <elementDefinition Id="69c86986-b306-497f-be47-1276145cc7da" />
+                </propertyInstance>
+                <elementDefinition Id="834d4929-0183-49ec-a354-65801c878301" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="41ca001d-9cac-404b-8bd6-7934d33719bf">
+                <propertyInstance Id="2be6f77e-4d5d-4944-83e3-3688fcd36b00" name="IsUnsafe" value="false">
+                  <elementDefinition Id="0d399d2b-c329-4043-a7c0-4eb5de667085" />
+                </propertyInstance>
+                <elementDefinition Id="cdf3356a-a9a8-40a0-a31e-9e0aa88220cc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b32594a9-4fce-49dc-958f-68c222e3fa14">
+                <propertyInstance Id="826e3d87-8aec-4d3b-a035-e7793d197f3b" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="5250111b-73a8-4867-938d-ea39caf95569" />
+                </propertyInstance>
+                <elementDefinition Id="acc9cad8-44a1-4682-b74a-7059d173ed43" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="3169646a-b524-437b-91f1-6df18ef5b2b1" />
+        <targetEnds>
+          <association Id="5666584a-544f-4919-b21f-a880ef24d407" isDerived="false" sourceEndRoleName="LeaveRequest" targetEndRoleName="LeaveBenefit" isLeaf="false" isAbstract="false">
+            <classMoniker Id="764cb1b1-6fa6-4758-abf7-ffc2e48af4fb" LastKnownName="LeaveBenefit" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5b386e0-33fc-464d-a348-58536fdce554" name="LeaveRequest" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="3b6619a2-0bfa-4a2f-8290-70710187b9f6" name="Lower" value="*">
+                      <elementDefinition Id="c0238e3e-846d-42ab-af75-ecf52ef666f0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="47229f63-431d-4b27-b7bf-15f3c2ef78c4" name="Upper" value="*">
+                      <elementDefinition Id="4aba3189-1f3b-4a30-90bc-fc1aae9312f5" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3a4d619c-1c11-4886-8d29-a958ac9e188e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cfb55407-3863-4e8d-a61c-f0f9b5170992" name="LeaveBenefit" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3412fbdc-d5d8-4902-9f1e-443ca6a24abf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c339d149-c7e0-4373-855e-1e784d6425b1" />
+          </association>
+          <association Id="a2e7ec17-a9a0-4005-ba96-2fd5ca40f668" isDerived="false" sourceEndRoleName="LeaveRequest" targetEndRoleName="LeaveRequestStat" isLeaf="false" isAbstract="false">
+            <classMoniker Id="36d33d4a-92d1-4175-b115-85c9c33ea146" LastKnownName="LeaveRequestStat" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="376f2ebf-b949-40e9-b5cc-af098b156d83" name="LeaveRequest" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc05d524-2413-4c6d-8843-1420e84ac94b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d3da5bc-4fdc-4293-9628-442e2cf2f645" name="LeaveRequestStat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="8be26153-a0c1-4162-aebf-fa7433e08565" name="Lower" value="*">
+                      <elementDefinition Id="24a22f0f-1732-4b26-b2e5-515b4413e8bd" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="d339bc19-e4fc-4f42-9038-2a1dffa36764" name="Upper" value="*">
+                      <elementDefinition Id="c7c94c40-640f-4167-bb92-6d98f716dbd7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="a7751563-25a9-416f-8adc-e80efa8fa909" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="663bae9e-a697-4d7c-ba5c-0733b5abcb79" />
+          </association>
+          <association Id="0f3415de-67ba-421b-b37e-63a0ae297799" isDerived="false" sourceEndRoleName="LeaveRequest" targetEndRoleName="States" isLeaf="false" isAbstract="false">
+            <classMoniker Id="36d33d4a-92d1-4175-b115-85c9c33ea146" LastKnownName="LeaveRequestStat" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3b581e1-b569-48ae-88e6-836a6d1914ce" name="LeaveRequest" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0497678d-1c8a-44f0-86f3-0639c3b3ed6b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd8f89e8-4857-4a03-9fec-069f1a0ba6cf" name="States" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="329dae9d-243c-42ca-b179-50e089730488" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3c18f980-b571-4b2a-be34-ef5a364667bc" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="7d6efbc7-f99c-4feb-a941-ef55b22deb36" name="requestFrom" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b80f029f-0cca-49c4-a7ee-4c297106e093" name="property" profile="CSharpProfile">
+                <elementDefinition Id="a0090ca1-d63b-4ec8-96de-e7029577dd03" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="619d762d-e018-4f1c-b279-cceecb22737d">
+                    <propertyInstance Id="8e4f37dc-83af-4e0c-b37d-f44f2ab89695" name="ClrAttributes">
+                      <elementDefinition Id="1a62afaa-b8b2-40c0-be98-c266c0c82165" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e0df4c2-fbac-4927-9399-2b6b4a7c248b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e36c2f88-b6d3-4848-a2cd-5cf099ce5244">
+                    <propertyInstance Id="d215314e-e2be-4315-b37c-0010534647bd" name="Get" value="none">
+                      <elementDefinition Id="3deea2ad-e89c-457c-b92b-26ac748783c2" />
+                    </propertyInstance>
+                    <elementDefinition Id="98a95fae-dce0-4d7d-a0f8-556114417457" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f7e89fd8-7e26-442b-a628-ae8c89883213">
+                    <propertyInstance Id="6c754231-7115-4c3c-81c2-5f3a24f19425" name="HasBody" value="false">
+                      <elementDefinition Id="f9f17d4a-c1c4-4e76-9cb0-00fbdb9bc30e" />
+                    </propertyInstance>
+                    <elementDefinition Id="294fa0c4-59b2-4f68-9668-22d7ecb1428d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2524cae0-fbcc-462a-8eef-c631f0fe8826">
+                    <propertyInstance Id="b68c6d4d-218b-4c82-8c31-7d9ed5d6fb2d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7de70bc7-2608-433f-aedc-617da91fc9b1" />
+                    </propertyInstance>
+                    <elementDefinition Id="d7e873be-2994-4dd2-b355-c1215969149c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c3fa8160-2f87-4c2b-b45c-f74a44ccd855">
+                    <propertyInstance Id="c8ab796e-34ac-48ef-881f-6b02ca30c611" name="Inheritance" value="none">
+                      <elementDefinition Id="25ff447d-1ba0-44d9-aaec-ad3eedd081ac" />
+                    </propertyInstance>
+                    <elementDefinition Id="a5881ed1-b8ea-4607-bacd-b11233b56a6d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ea72c165-e902-45fb-8a9a-4d6efabefdc8">
+                    <propertyInstance Id="9d495b2e-0975-4d7e-9b10-77e66b49eeaf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1171b2f1-e1da-4602-8c0b-3ce990bdd260" />
+                    </propertyInstance>
+                    <elementDefinition Id="e30868f2-ad63-4783-81f3-d1d73823ec20" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="53540efa-82c7-4edf-b2de-ec9409424f56">
+                    <propertyInstance Id="4a33f259-9feb-445e-8c32-f860d906a866" name="Set" value="none">
+                      <elementDefinition Id="27437c6b-68dd-4266-8320-8544819f0ea9" />
+                    </propertyInstance>
+                    <elementDefinition Id="41395565-23b5-49ad-97ab-cf095c5c7196" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="65bcead1-efdd-439b-93ef-c2e403b590f6" />
+          </property>
+          <property Id="2279f29d-9d25-485d-a3f2-d86ec15c9bda" name="erquestTo" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9b168625-bbb2-48ac-a7c5-1b07ac8fb84e" name="property" profile="CSharpProfile">
+                <elementDefinition Id="aeaec238-1434-4105-a6e6-ffd64e506d3b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8185d3d0-e14d-4688-9ebb-1a2eee78e943">
+                    <propertyInstance Id="e0cc35ef-6042-44c8-9781-43011b76c333" name="ClrAttributes">
+                      <elementDefinition Id="2e3f80ad-572c-4c53-b171-f571076057b0" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b95d84e-060a-40fc-9d36-cef411ff0f07" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="55aaa8a7-61de-49fe-9317-6635c234a4e1">
+                    <propertyInstance Id="ee5a263d-7ac9-468c-bab8-17db81175303" name="Get" value="none">
+                      <elementDefinition Id="ad788f42-9b53-46d0-93fd-6d5d09274b9e" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b01e96f-1783-4350-9a24-af013ebe23f7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="746fa2a6-22f1-4710-8384-95ae99f377cd">
+                    <propertyInstance Id="1c4f350d-c05e-41b9-86e6-b29c75853ccc" name="HasBody" value="false">
+                      <elementDefinition Id="61572718-0ea4-475a-82aa-44c436f6f0fe" />
+                    </propertyInstance>
+                    <elementDefinition Id="99da13f3-d656-4b0c-9f2d-01cc27a14d05" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4fbda9c7-c4f8-4d1f-83f5-0cc7b2aff714">
+                    <propertyInstance Id="d241a644-05bf-40f6-99fd-86b425c8bb49" name="IsUnsafe" value="false">
+                      <elementDefinition Id="83742475-f54f-40d6-8af8-6ea102c70e5a" />
+                    </propertyInstance>
+                    <elementDefinition Id="5fddffcf-3707-49ea-be16-57c0996b9c67" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b788f40d-6a27-4669-9a21-4e8fb37505e6">
+                    <propertyInstance Id="d8e1751e-d708-40dd-ae4b-784455721ce7" name="Inheritance" value="none">
+                      <elementDefinition Id="d45b3dfd-33cc-4d43-a310-35f34dab26b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="8dd5bbe0-91f2-430b-9898-21beb78dc91e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cec3ab2c-4bfe-42f6-ad09-285ad11dc033">
+                    <propertyInstance Id="b0da4ca7-5da1-4973-81a6-718844dbc483" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="949a9704-f7d1-4e5e-97d7-43712fbd5e4d" />
+                    </propertyInstance>
+                    <elementDefinition Id="7f55cb67-4987-4879-be4a-da8c5594aac6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="197c2fa5-ce3d-4aef-afcb-cd2ae2799d68">
+                    <propertyInstance Id="3f1f68a6-13bc-4b6b-bdad-078035011fc2" name="Set" value="none">
+                      <elementDefinition Id="5135bcfe-2bb2-4b92-9bc9-21e4f4ce4756" />
+                    </propertyInstance>
+                    <elementDefinition Id="f792c4d7-2874-4ad4-a6e7-d34f3b9f6910" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d726fd28-a79a-4477-9cdd-967ea647f382" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f7ba7f8b-d2ae-4a76-8f1e-c13b01832e15" name="Submit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d8460b6f-5f36-44a5-9379-5f1e1078c520" name="method" profile="CSharpProfile">
+                <elementDefinition Id="680bdb7f-a42e-4ebb-9bb0-61a6a3936e75" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="928621f7-b2bd-4076-be70-dd05f4b82f53">
+                    <propertyInstance Id="a8bedf0a-019c-47c0-b292-2197169dad11" name="ClrAttributes">
+                      <elementDefinition Id="3b147aab-1e05-4b1f-8e30-e4b576e44e34" />
+                    </propertyInstance>
+                    <elementDefinition Id="5b3bee69-e811-42a2-be80-61c472aa3f2c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7a137b05-ac17-4f4c-b25a-58e969f768fe">
+                    <propertyInstance Id="f6ba896f-2553-4528-8358-b8f72fc0cfb5" name="IsPartial" value="false">
+                      <elementDefinition Id="ad2f6938-4913-4712-aedb-c4744c8c6194" />
+                    </propertyInstance>
+                    <elementDefinition Id="162dd35a-ef56-49e4-aab8-fa0d8e0e9ce0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a238dd11-ffbd-4481-920a-d3fd4c7dd61d">
+                    <propertyInstance Id="01b15274-bbe5-496b-aefe-7a443ec37ba4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="be44ea25-eff9-4235-bf0e-cee301ee81f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="6e63d600-1255-4ea9-a6f9-bdd873c9a28e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e85e5d2-669f-4007-bbc7-4dda2e5a4095">
+                    <propertyInstance Id="cef0d975-d6ff-4359-a577-fce14ca31d7f" name="Inheritance" value="none">
+                      <elementDefinition Id="9edaf45e-92d6-4ddb-9aca-5b97737401b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="c2f641d9-f4b2-4da1-8eed-6075d15277e6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6c3fbcd7-bec6-4438-8bae-b4ae42314a1c">
+                    <propertyInstance Id="b01b370b-371a-4984-be84-a367cf17cd76" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="55fd6200-2c62-4d00-8a8e-e963d9d719fd" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ba5b3e4-2301-4ce5-8ce6-27710dd5773f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4e64abca-c33c-484b-ba7f-2774d8ee1243">
+                    <propertyInstance Id="a6239caa-19d1-4d4e-a5c3-57b4c4e2301b" name="params" value="false">
+                      <elementDefinition Id="affb7b6e-2c5c-4e55-8eeb-c3e48fe1b362" />
+                    </propertyInstance>
+                    <elementDefinition Id="85ee1599-a463-40eb-a641-bb8bc156e44c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="3e8e365e-b4b2-4fbd-8400-935d31a35ed7" />
+          </operation>
+          <operation Id="31d484cb-d6c3-4cdd-bd0c-8b868e01b05a" name="Approve" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="94e981e5-acfb-4aaf-b4a5-9c3a1b6ecdbf" name="method" profile="CSharpProfile">
+                <elementDefinition Id="87efc662-a9fb-4699-afce-e3bd39d4cc0f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f0f3b42a-f3c9-4fb9-a188-c60a292bfc15">
+                    <propertyInstance Id="18d9f17c-26d1-4712-9c7d-2d8e98c53faf" name="ClrAttributes">
+                      <elementDefinition Id="e7772b35-34cc-42cd-96cc-159d9a06e470" />
+                    </propertyInstance>
+                    <elementDefinition Id="9bac7b3f-d987-4aad-ace8-b939db1694c3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6b4b0590-cf5f-4f9b-a27b-b2e0f3067662">
+                    <propertyInstance Id="fc582a04-d29a-4295-a2e4-f6824f1461f2" name="IsPartial" value="false">
+                      <elementDefinition Id="2d956fae-194b-4dd7-9d0c-a302c1d1efd8" />
+                    </propertyInstance>
+                    <elementDefinition Id="4ab377f0-d2c1-4108-b019-2702cfbfc4fc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b87f52a6-63e6-4308-a66f-b10e28b07204">
+                    <propertyInstance Id="cc22453f-d5e0-4291-b07c-eae6869ff335" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6c5f1b2f-d2b3-4371-b1f4-3711d90e070c" />
+                    </propertyInstance>
+                    <elementDefinition Id="447068fd-d1db-4aa9-bff6-fea913707d52" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="61436f36-c208-4a29-878a-3ce010a9ba41">
+                    <propertyInstance Id="bd447688-c814-4255-88ee-cc69acec64e8" name="Inheritance" value="none">
+                      <elementDefinition Id="ef4270e0-3064-4e94-8c20-93cf1dfe4353" />
+                    </propertyInstance>
+                    <elementDefinition Id="dfd9c940-b4ba-4f18-9330-41fba3bb80d8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="31950d44-1b4b-4ed4-a242-1250083496dc">
+                    <propertyInstance Id="7635e7c4-2c9c-4d88-b54a-bbc9a391e851" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="266c02c5-c7a2-4a73-8a7f-9b645dc7987d" />
+                    </propertyInstance>
+                    <elementDefinition Id="525ef786-389d-49d6-82bb-c1ff50eb0fae" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5a20691e-3a07-4135-b70c-27b80759199a">
+                    <propertyInstance Id="e0a0823c-142d-4f85-881a-a13ed6ec3611" name="params" value="false">
+                      <elementDefinition Id="84599d07-14b6-4e3c-b338-4103bdafed2f" />
+                    </propertyInstance>
+                    <elementDefinition Id="dad8211c-6095-442d-9448-562584c4fd8f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="217101b0-304e-4175-bda9-d58a4b7d53bc" />
+          </operation>
+          <operation Id="b5aaa0ff-427b-435f-8c69-143edaa40616" name="Reject" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0680a3ec-1aa7-4287-bc84-0bd9c54ddd11" name="method" profile="CSharpProfile">
+                <elementDefinition Id="72e65537-5e49-4bda-a9ab-0f68b774ab46" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="23879ddb-ed96-4fd3-ae4f-6b77ccbb2e2d">
+                    <propertyInstance Id="775d51ae-9395-474b-bcb9-c90a640e1094" name="ClrAttributes">
+                      <elementDefinition Id="3c3ffc01-d4ca-45e6-a5b4-38dee419e271" />
+                    </propertyInstance>
+                    <elementDefinition Id="d53790a6-39ab-4bf8-8576-4743170503b4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6adeb6e5-e130-4783-bdaa-d4d61404e59d">
+                    <propertyInstance Id="3f599a80-52dd-455d-b74b-1182221dc0a5" name="IsPartial" value="false">
+                      <elementDefinition Id="1bd87d38-ac15-4c59-99dc-feb63a64bd8e" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b69061e-4153-4ea5-b575-1d0b7e5e0aed" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c585c7c8-f27d-4d48-9025-60a04863d1e2">
+                    <propertyInstance Id="de1f0feb-1213-4e5a-9ae3-8e7f5a5734f9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="dc36b348-b3db-4c25-b079-f057ad7978bd" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c33663e-2f72-428d-aceb-cde435ff9601" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4451227c-02ce-4e99-8e10-c0fdfe6bd3e8">
+                    <propertyInstance Id="6de2d8a5-2b25-4f1a-a1d0-f2098f6a453d" name="Inheritance" value="none">
+                      <elementDefinition Id="b383a436-7423-4ca7-b57d-30d6e9b0f5ae" />
+                    </propertyInstance>
+                    <elementDefinition Id="3644395e-f95e-491f-9101-9c6f72a02c5e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="34250c23-fe67-4581-9183-76d0c3d07ffb">
+                    <propertyInstance Id="f25f5101-0c52-47e7-851e-04666d8579b6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2c2918d6-aa60-4f0e-a451-aa866bbb4c4f" />
+                    </propertyInstance>
+                    <elementDefinition Id="4cc2f2fd-8fa5-4acb-8c4d-bb9750a6de36" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="efc49f76-fb84-41b9-8c43-2dcd7f628cbd">
+                    <propertyInstance Id="377d4622-54d6-45fa-85e9-79f571ad82be" name="params" value="false">
+                      <elementDefinition Id="ef637860-bdd9-42bc-beac-103113ba656b" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce9ced08-1902-47f7-aa42-78712e19346e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="52de7d37-8f4b-43bc-8e1f-222ca5c0d1d7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="36d33d4a-92d1-4175-b115-85c9c33ea146" name="LeaveRequestStat" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e04872f3-3c60-4542-a125-ba3959c4825a" name="class" profile="CSharpProfile">
+            <elementDefinition Id="a3a23030-6fbb-4c95-9bee-3cf2cd511ec4" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cce1b355-ab60-47e9-80f2-d3420467e1a2">
+                <propertyInstance Id="bddadc73-8864-467a-867f-4da2f81d288f" name="ClrAttributes">
+                  <elementDefinition Id="19f734fc-2ecf-4727-a94e-42c777b38cf2" />
+                </propertyInstance>
+                <elementDefinition Id="f062f95b-6a97-4c0e-8b62-6b2b0f185956" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="975012d4-7c5b-4313-bfc6-d8b65e29d6d5">
+                <propertyInstance Id="dd8017f4-d9ca-4ef7-9c95-34cd4b23b09f" name="IsPartial" value="false">
+                  <elementDefinition Id="b6e08609-ca4d-4715-a447-ed821eeb612d" />
+                </propertyInstance>
+                <elementDefinition Id="2927c1cf-448b-4e45-a468-ff197e4359d1" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ecac98a2-9f00-42d5-9397-b298a6dfb00a">
+                <propertyInstance Id="c08556b6-ba0d-4aca-be38-668a1c7201f3" name="IsStatic" value="false">
+                  <elementDefinition Id="18ea8eb2-b549-45d2-8937-2823dcc4bb00" />
+                </propertyInstance>
+                <elementDefinition Id="8477212b-0a03-4ed7-b966-c208eea17779" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d7287723-f46e-4ccd-9ec5-f255b8658991">
+                <propertyInstance Id="b614f0ff-0b7c-49ec-aaa0-8f2fea193ea0" name="IsUnsafe" value="false">
+                  <elementDefinition Id="4f007d08-04de-414d-b38e-df4d92f42402" />
+                </propertyInstance>
+                <elementDefinition Id="b284eb0d-065c-4a43-b113-41a3701d8704" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e12efb9a-280a-47cf-bee4-f745956f8bae">
+                <propertyInstance Id="f58d734e-0f96-470f-aa56-ca27dc45e7e3" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="348c1b2b-4f49-447f-a98e-845ca32ec718" />
+                </propertyInstance>
+                <elementDefinition Id="ada222b8-1463-47cd-9f6f-afa005c3a780" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="85a39826-df0a-4fce-8a04-99098776e8ca" />
+        <targetEnds>
+          <association Id="1ceb6d6e-d6cf-4c23-871e-4f7fdbcb46b6" isDerived="false" sourceEndRoleName="LeaveRequestStat" targetEndRoleName="Personnel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b27a85dd-3cfe-4f1f-b229-efd1bad9b341" LastKnownName="Personnel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c19f852-125f-4aa5-8aa5-b7e976aad154" name="LeaveRequestStat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="47ac0baf-c8ed-4688-8e34-a03ded5215fc" name="Lower" value="*">
+                      <elementDefinition Id="cb08411f-66d7-458b-ac0e-d49d34320922" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9173c4db-f19f-4f03-9d89-a4895f342690" name="Upper" value="*">
+                      <elementDefinition Id="0f7c400a-a55b-4630-ae8f-e364803d9ef4" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="2900886e-576b-409d-9705-c3e1cbbe6abf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f2d9ebae-18c7-49a8-a883-f2c10442d434" name="Personnel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6c658ba7-c36d-4c01-9c6a-739e4785ed5a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a9245e72-cfe2-40d2-908e-9166aec5e11a" />
+          </association>
+          <association Id="ac5c4368-559a-4a00-8982-46c50a4f82b0" isDerived="false" sourceEndRoleName="CurrentStat" targetEndRoleName="LeaveState" isLeaf="false" isAbstract="false">
+            <classMoniker Id="1ebce2e5-f411-466e-80b4-6818cb40e297" LastKnownName="LeaveState" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c25ac5bf-71de-4b65-b2c2-54107dcd0133" name="CurrentStat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="1f1cdb51-e4a3-496b-b50e-d698e3e17b79" name="Lower" value="*">
+                      <elementDefinition Id="54a75e70-71ab-435e-9960-727a6c6fcf9c" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e0a702f3-3915-4b68-9155-b130f8b2bce0" name="Upper" value="*">
+                      <elementDefinition Id="5b8f17c0-80b6-4f4c-b8de-eaaafd68917c" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0ee90fb7-281f-4377-a247-ee99a8e22a2c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="492e1d0b-d477-4a68-9218-9b2279758b98" name="LeaveState" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="231d895d-c630-43b8-aac7-a0ffec21e46d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="15f12ada-55b6-401e-989e-fccee0cd99a8" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="844becfb-aec7-4522-8fcc-0562129dd039" name="timeStamp" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5a660792-7b9f-44d9-965f-c21cffcec23f" name="property" profile="CSharpProfile">
+                <elementDefinition Id="39693b21-a32a-457d-b47c-59eadc136080" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="25f5e5b2-f87f-4abf-b447-4ac8023c1f61">
+                    <propertyInstance Id="d3852058-d4f3-4a02-ace7-72acd34fff86" name="ClrAttributes">
+                      <elementDefinition Id="989289c9-6876-4d18-a6f1-5b4884abe5b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="332ccf1d-98ba-42e2-8072-d0f7cad42bba" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68e7b40e-7ebb-41ad-8a35-1f9b809205c4">
+                    <propertyInstance Id="bf07f41f-44f9-4d4d-bef4-29418463f1f2" name="Get" value="none">
+                      <elementDefinition Id="2cb057b5-27ca-444d-b0e7-336eb4f1e1dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3ce6898-7314-4510-8bb2-db4d9a747991" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7342c469-5e53-4b9d-bff4-58a668d5b708">
+                    <propertyInstance Id="6c805fe3-5e89-4d14-9228-29ceb649c9fc" name="HasBody" value="false">
+                      <elementDefinition Id="495c1554-fc41-474a-b0bf-a718f84a2895" />
+                    </propertyInstance>
+                    <elementDefinition Id="7897375f-86fe-43bd-a6d2-fa5f6fa9bb62" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1f27eceb-5d4a-4c95-8edc-af7f819cdecb">
+                    <propertyInstance Id="cbf02b9d-2845-4eae-acb7-2d81d752ac43" name="IsUnsafe" value="false">
+                      <elementDefinition Id="df78ba09-4340-4e61-afb8-dd0216a026bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="7fd8ed19-d48a-466a-9d77-770e9725c6d3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5391485a-327b-406f-99fd-251e8a81fd90">
+                    <propertyInstance Id="325d43be-a709-4639-9686-aec042525477" name="Inheritance" value="none">
+                      <elementDefinition Id="b24f81bd-56e9-4a32-bad7-3737cb2a0181" />
+                    </propertyInstance>
+                    <elementDefinition Id="be0c503e-f95f-4e8d-9766-569d49b47086" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c7136d6f-e8f7-4134-bb88-7f7114e0eb91">
+                    <propertyInstance Id="c5d78e81-74c4-4965-9ea8-1c22cd054c60" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="548b3f4c-4f71-4203-bd91-3fb1d820d97e" />
+                    </propertyInstance>
+                    <elementDefinition Id="41ab90ce-64ee-427e-8f70-4f619b894795" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4ccebefd-9822-437c-8590-1606c4de5a42">
+                    <propertyInstance Id="554b5229-fbba-452f-8704-f31f0c95dff0" name="Set" value="none">
+                      <elementDefinition Id="207af16e-9866-442a-8ade-55749dea4d18" />
+                    </propertyInstance>
+                    <elementDefinition Id="ad89c1f5-41bd-4e08-b412-153c59d487b9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="267e4379-c976-40be-b935-5c2d892e9d92" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b27a85dd-3cfe-4f1f-b229-efd1bad9b341" name="Personnel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="f1d7d815-d8b8-40cf-b632-e799552c095f" name="class" profile="CSharpProfile">
+            <elementDefinition Id="0610424f-d3c4-4d7a-b98f-d2f73c4ae507" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="57bf75bb-98d9-44a1-bc5e-f2f4d5ba45c2">
+                <propertyInstance Id="43a95c72-f892-4fbf-88da-0ca2cf8a836c" name="ClrAttributes">
+                  <elementDefinition Id="ad3b514b-d7b9-41ba-8ac9-f9a3178c10db" />
+                </propertyInstance>
+                <elementDefinition Id="33f0396c-f076-46ae-989a-6a5563cb2c1a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5004d500-f169-4f85-9642-39e1e11d2416">
+                <propertyInstance Id="3889b8ca-cc0e-4d96-95b0-bff67039da5e" name="IsPartial" value="false">
+                  <elementDefinition Id="6f0ef7e8-d129-4c76-8ee2-cf1659355d1d" />
+                </propertyInstance>
+                <elementDefinition Id="e23384e2-c666-45ba-bcb4-d44fdd72a0c4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2a46146f-1b4c-48f9-b9d2-acfc96d81a7f">
+                <propertyInstance Id="d4b5117b-4853-4dcf-88e6-0409bda89753" name="IsStatic" value="false">
+                  <elementDefinition Id="555fc8e8-3b79-4964-bbd4-95f6a6c459c8" />
+                </propertyInstance>
+                <elementDefinition Id="3f91aa2e-eb1b-475c-96eb-311fac03ae58" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9f2684d3-3a2d-4bc6-a066-440ae6aac378">
+                <propertyInstance Id="a406b60f-0516-4594-8686-840921266c5c" name="IsUnsafe" value="false">
+                  <elementDefinition Id="2454b146-0f5e-47f1-abf5-6642ff5c4f72" />
+                </propertyInstance>
+                <elementDefinition Id="da8a327b-438b-43cb-8210-5da3143a3cfc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c9f8b0b1-f75d-4fb5-9f8c-c2eb74463a6b">
+                <propertyInstance Id="e0037943-c154-4f62-86d6-2592977e93b1" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="cae96043-d5e3-4f62-ae3b-ecbfa9aff705" />
+                </propertyInstance>
+                <elementDefinition Id="6bc5360d-31d6-415e-8fa9-dc90b8f49355" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="405bb3f1-0311-4504-8fe9-5461cfd27af2" />
+        <ownedAttributesInternal>
+          <property Id="d3f6374a-8fbc-40c5-aca7-d609e33b3e07" name="effectivePeriod" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="71cea3fb-1cbd-41f5-8141-0a02de0d2a8b" name="property" profile="CSharpProfile">
+                <elementDefinition Id="1bfe8497-59a5-48db-b249-236eefae4bce" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c573b43-d929-4778-a253-2171742a3790">
+                    <propertyInstance Id="be327f54-e613-49b8-9256-e9e4c5ec50c7" name="ClrAttributes">
+                      <elementDefinition Id="a2b04e6e-cfa5-49fd-a487-5daedc7a383b" />
+                    </propertyInstance>
+                    <elementDefinition Id="79ed5c72-5250-4100-a91e-62e894f56654" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="df521aac-0243-4525-bae4-3b0174e0bd8c">
+                    <propertyInstance Id="d857b2ba-2a35-4d4f-b96b-0388f057660f" name="Get" value="none">
+                      <elementDefinition Id="09d80e5e-e1a9-4b54-94e4-2e81101a9e76" />
+                    </propertyInstance>
+                    <elementDefinition Id="adc49b03-c15f-4121-8c52-23e6e3433710" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c4f043b-c379-4caf-adac-e0f5426b7e7a">
+                    <propertyInstance Id="1c65acea-b0aa-4c6e-bd55-c36224e66ee1" name="HasBody" value="false">
+                      <elementDefinition Id="3a85414e-d04f-40da-b521-44768eae5677" />
+                    </propertyInstance>
+                    <elementDefinition Id="91366163-4184-46b4-a866-668f751aeb54" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d661f029-d466-49d1-951c-e98278106756">
+                    <propertyInstance Id="8f1fedf4-e56a-43d6-8dbd-fd8a3218bbb8" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f4b41953-b9f6-4655-8ea4-fb8c4fe4f3ff" />
+                    </propertyInstance>
+                    <elementDefinition Id="824b5193-cebd-4401-8c86-ced99b748f21" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="afd4e15d-2969-4717-b087-20121f5b7c5c">
+                    <propertyInstance Id="61789b3b-b616-4071-a61e-e30ce5657c5a" name="Inheritance" value="none">
+                      <elementDefinition Id="0de930bc-ef3a-41af-ae19-0a1ae3e4e186" />
+                    </propertyInstance>
+                    <elementDefinition Id="9f879acc-03d1-4807-9e15-05f9e7700a93" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0ceaeb1b-3004-4e5a-bb2f-aa88ac28ca26">
+                    <propertyInstance Id="b9b8a3aa-ac68-4089-bc56-94ae378839a9" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3e70a888-a2ec-4cf8-9fed-3bd9e29bf0df" />
+                    </propertyInstance>
+                    <elementDefinition Id="0f195c06-a638-427f-a801-ea0a3f808fe2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f6d87229-2b0c-4af5-b0f2-6cce9fc95ecc">
+                    <propertyInstance Id="296736ad-6821-4cbb-b54f-e6e2ecc54d6e" name="Set" value="none">
+                      <elementDefinition Id="43c5c8b6-7ae3-45fd-9521-307652b78710" />
+                    </propertyInstance>
+                    <elementDefinition Id="9ea0f823-3c2d-43b3-810f-74b2a7fb3ce7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="329d4fef-d78f-465d-a229-c010def28baa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="558d2348-d3d0-41e5-8576-458377661001" LastKnownName="TimeInterval" />
+            </type_NamedElement>
+          </property>
+          <property Id="217fdb2f-8de1-4fa8-abca-c943517de314" name="employeeNo" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="589b06ee-ef14-4c22-b0e4-cdfdd7085af9" name="property" profile="CSharpProfile">
+                <elementDefinition Id="abd68bdc-f07d-45f6-8a8f-ca38a67e253e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="711b9cc5-4e07-4418-af1f-09c0aeb4816e">
+                    <propertyInstance Id="8c23ade6-cdf6-4dda-97a3-c7b9b71674b0" name="ClrAttributes">
+                      <elementDefinition Id="60d87d6d-c316-46aa-bef0-b4dd90bf7854" />
+                    </propertyInstance>
+                    <elementDefinition Id="d6690929-f602-4e35-ab1b-9be54b39ea0b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b9fbbf73-2598-437b-8a7c-932869438c48">
+                    <propertyInstance Id="a957cd04-8b95-4d5a-994f-c0f9ebd8ce7f" name="Get" value="none">
+                      <elementDefinition Id="8b565457-27a5-462a-ac1e-83b965af6326" />
+                    </propertyInstance>
+                    <elementDefinition Id="17303908-aaa8-4329-b18e-fdbd05a09a5f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="52581bb5-367f-4989-b811-2dc8b560c949">
+                    <propertyInstance Id="22ae86d6-f1c6-49c3-b9f3-3318d0b7c057" name="HasBody" value="false">
+                      <elementDefinition Id="67b7f124-d541-4a16-839a-5aa701f73e2f" />
+                    </propertyInstance>
+                    <elementDefinition Id="9a285948-2d4a-4588-915c-0f9441164b80" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bc392ed8-e880-45ed-86ca-59fb0c9fa8a9">
+                    <propertyInstance Id="d8c971a5-6b81-41be-a174-7ce32085e3ef" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c057bec7-cdd0-41cd-a615-ca62c6f7e899" />
+                    </propertyInstance>
+                    <elementDefinition Id="a5935a07-8b7a-4915-b9e0-126fefca804d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="87eda802-986e-4fe5-95c8-94d0a78a8066">
+                    <propertyInstance Id="882ec4c2-0d78-41b4-be81-d2e45be746ec" name="Inheritance" value="none">
+                      <elementDefinition Id="24570958-076f-4b73-82ee-08e759e217c0" />
+                    </propertyInstance>
+                    <elementDefinition Id="cbb02cfc-2b2c-4fa0-ba7c-dbc5cdc924aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="53de229c-b223-4bc9-8453-17ed8e4a4ee9">
+                    <propertyInstance Id="c9505da8-93b3-411e-b3a4-9823e92f02e6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="9af7e23e-d24b-4545-9ec7-504033e702d7" />
+                    </propertyInstance>
+                    <elementDefinition Id="c9725b98-b030-4a08-b5a6-98e46c8e9b5a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="900cb9da-12e6-48f8-b58a-7ac19993f331">
+                    <propertyInstance Id="0d649e2c-70ea-416a-87ad-2cd3abeec3f2" name="Set" value="none">
+                      <elementDefinition Id="193e66b8-eacb-43c4-8db5-d0356ad607af" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c1ddb6b-330f-469b-a987-d4ae8dc7aa3d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0f251c2c-4bf0-4bde-b664-eb50df0eeff4" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="558d2348-d3d0-41e5-8576-458377661001" name="TimeInterval" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::TimeInterval">
+        <elementDefinition Id="0242b137-42ca-4bc4-82dd-9c63dea1e952" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1ebce2e5-f411-466e-80b4-6818cb40e297" name="LeaveState" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="16d88e47-2764-4817-b9c1-a2c5e1d95a45" name="class" profile="CSharpProfile">
+            <elementDefinition Id="8a64a650-9805-40da-9244-f9b26fb83912" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fe063761-54c4-4a55-aaae-f67820c1534c">
+                <propertyInstance Id="a6b27f91-1a1b-425b-adbb-2d68fb6f9abd" name="ClrAttributes">
+                  <elementDefinition Id="fe6aad22-2bd1-4c59-8c6d-74fba75676e5" />
+                </propertyInstance>
+                <elementDefinition Id="cc5929e2-bbeb-4ae7-acad-1e591dd22a75" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c2ee8ff8-0c76-4eaa-9165-3d0ed0c8caa9">
+                <propertyInstance Id="9fdb2d6c-a92f-4a30-a343-168e5e0acb50" name="IsPartial" value="false">
+                  <elementDefinition Id="4815e864-8a5d-4833-846a-7e96a8daaaf3" />
+                </propertyInstance>
+                <elementDefinition Id="be378bb9-baa7-4cc6-9e0f-65ab399f74e2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1c76b4ca-39fb-45ec-91f0-26c453a0a6a1">
+                <propertyInstance Id="5cd7857b-94ee-47b6-a71a-a2f21c91c176" name="IsStatic" value="false">
+                  <elementDefinition Id="30e7b9c0-ebee-4779-a293-d49f8d3fa9de" />
+                </propertyInstance>
+                <elementDefinition Id="aec3a4b7-c5c5-4e26-aeee-50c2fd20e707" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4af2e243-aa4d-49f4-b58e-53cf66354b86">
+                <propertyInstance Id="8a86bdf8-63d3-42fa-b2db-1883d3fc61f6" name="IsUnsafe" value="false">
+                  <elementDefinition Id="26ae1fc0-2ab8-4da9-9998-141320ef2a9f" />
+                </propertyInstance>
+                <elementDefinition Id="7f224e01-a7a6-4045-a4b2-f09c0e4b5fbb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5aa6eee6-eb53-4190-9ff1-f8cb6ef87e88">
+                <propertyInstance Id="8c1e1a5e-3696-4120-97c8-7a9b096731af" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="657b68a2-5b95-4544-9cfb-af5c8024796a" />
+                </propertyInstance>
+                <elementDefinition Id="3fdc75ff-2839-4547-88f6-e4cf76b306f0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="52bfb73a-9546-4895-910c-9001417ccf22" />
+        <ownedOperationsInternal>
+          <operation Id="be632be5-79a3-4c48-8e40-49cda7859568" name="Approva" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="bee13420-c402-48b0-b13f-61afab24c7bc" name="method" profile="CSharpProfile">
+                <elementDefinition Id="690be9e7-5d6d-4f55-a487-d8222a5f4965" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6b7ad1d7-5ec4-43f1-b9cb-1f5a9b3e162a">
+                    <propertyInstance Id="93d54a95-eade-4b9a-b992-eba6e63a8a63" name="ClrAttributes">
+                      <elementDefinition Id="b8a57b14-cf50-4603-96c4-12037ea55c41" />
+                    </propertyInstance>
+                    <elementDefinition Id="cf92fccb-ad87-46c0-8f3f-8b53aeb87468" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="980b232b-eeff-4338-b724-363120402e24">
+                    <propertyInstance Id="bf426897-e874-4ed5-938c-fc06a5c786b3" name="IsPartial" value="false">
+                      <elementDefinition Id="72e4be7e-0cfb-4f11-a0bc-16f5635f69a6" />
+                    </propertyInstance>
+                    <elementDefinition Id="fc53086c-7b9e-4657-ac96-2bc4be61b674" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7b5d5629-b958-46fa-87b2-12b36eb10ff6">
+                    <propertyInstance Id="b9b87e2a-2a45-412b-b698-9f1c1f1285fd" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6ff07575-85ed-490e-b048-e7ba8e7ef263" />
+                    </propertyInstance>
+                    <elementDefinition Id="81e9cf7e-aabf-4744-84bd-6955a261ddb1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8944eb92-592c-4f97-9041-d7b4a9bca4c4">
+                    <propertyInstance Id="6e09b938-3523-43b8-827c-e953e3ba57d7" name="Inheritance" value="none">
+                      <elementDefinition Id="0dd3c831-5b8c-43bd-a3ed-b3ae377b16ab" />
+                    </propertyInstance>
+                    <elementDefinition Id="08dcd913-bdb4-4bb7-9653-e69fc0c4e865" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f9bf5edf-7305-470b-8126-1569794a53a8">
+                    <propertyInstance Id="010138d4-c935-484c-ab52-9259e086ff13" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="baf63c29-6a4f-43fa-988d-d52746327545" />
+                    </propertyInstance>
+                    <elementDefinition Id="ab434abb-ec8c-45d2-9886-a67c6e19b810" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c456dce1-48e7-4a5e-ab9d-a7b3e0c66538">
+                    <propertyInstance Id="4fd8f6c9-b146-43d1-a261-6bb1ae4d4cf1" name="params" value="false">
+                      <elementDefinition Id="37de4b63-8ed9-4361-a681-c15959d4bf60" />
+                    </propertyInstance>
+                    <elementDefinition Id="7419fe16-8dac-43c8-9b50-27f6c2712917" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cb43cee5-f2c0-4079-82f7-9ed5aec6bbe8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="11a769b3-804a-4015-a628-df0084baa1c7" direction="Return" isUnique="false">
+                  <elementDefinition Id="3e14d854-78d5-4011-8992-b9591e6630d4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="0f3625a4-743f-4bcc-b40e-a50321ff4060" LastKnownName="LeaveState" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c8ab1db2-13b4-4108-b18b-5f7a4cd09628" name="Reject" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="692283b2-6d0a-4e5f-998e-ea5a6c5b0c3f" name="method" profile="CSharpProfile">
+                <elementDefinition Id="171eb288-7d4f-4c1e-8f4a-6fd565fc75a9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="77fa29b2-e6fb-4549-af07-c848e1689f87">
+                    <propertyInstance Id="c1ff3c5d-861a-4879-bf39-1a92f95cd76f" name="ClrAttributes">
+                      <elementDefinition Id="868d7f27-70e3-4af2-b120-bd6dfbab6a3e" />
+                    </propertyInstance>
+                    <elementDefinition Id="3be4e590-e3dd-440c-acb8-ef99c768abf9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6dfd948e-c4d8-47be-8066-a2f6ce541322">
+                    <propertyInstance Id="1a80f47b-e4f9-4f9e-bb80-b18e53e4121a" name="IsPartial" value="false">
+                      <elementDefinition Id="245dd4e4-3ca4-408a-9331-7b99369183db" />
+                    </propertyInstance>
+                    <elementDefinition Id="60b1d85c-1b99-4f75-90ad-ee1451c72ee0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c972aadf-5046-44f5-b961-163317dfdba3">
+                    <propertyInstance Id="0cc97774-92e0-4125-a4c9-c0e131d9af10" name="IsUnsafe" value="false">
+                      <elementDefinition Id="3530f96c-07fd-438e-84e7-8f3b36cb01fb" />
+                    </propertyInstance>
+                    <elementDefinition Id="af417607-d140-4158-b524-ce7d479e011a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="260d44ed-514a-48b1-9145-f6589d7ae090">
+                    <propertyInstance Id="11ff0a87-082e-444a-a26c-e443526a782b" name="Inheritance" value="none">
+                      <elementDefinition Id="d1741492-e414-4bd1-8c38-8a66756b292c" />
+                    </propertyInstance>
+                    <elementDefinition Id="35006a9e-55cc-4deb-a93a-d984624af0c4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c741f6d7-1d71-4ea3-a50a-2236352d0da0">
+                    <propertyInstance Id="0a7fcaf9-27cc-4b09-803c-66d4a1380ad3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e9fded2e-91d1-44c1-a8b6-114ae9523a35" />
+                    </propertyInstance>
+                    <elementDefinition Id="3bb01a93-aa03-4609-80c7-06781152ae42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a565a59-c1ec-4703-b019-b0d3e6fb5763">
+                    <propertyInstance Id="ecf59805-c765-40ec-a0a5-d69a9b618a52" name="params" value="false">
+                      <elementDefinition Id="cc385b62-0630-4686-a622-0b0007871d34" />
+                    </propertyInstance>
+                    <elementDefinition Id="da54d3ec-078e-489e-8f94-eb0295852f5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="4871eca4-2bc4-4ba2-ae6f-96ba1e5022fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c540bd80-4b84-4dd6-b420-4252c7c52c96" direction="Return" isUnique="false">
+                  <elementDefinition Id="42ec7274-70db-443a-833e-622aa9f82165" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="0f3625a4-743f-4bcc-b40e-a50321ff4060" LastKnownName="LeaveState" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="0f3625a4-743f-4bcc-b40e-a50321ff4060" name="LeaveState" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::LeaveState">
+        <elementDefinition Id="52bfb73a-9546-4895-910c-9001417ccf22" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a7a3fe9d-22b9-4709-847c-31f966bb20a3" name="ApprovedState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="265f7d23-bb09-4bf6-8a3f-0fa1e53c3b4d" name="class" profile="CSharpProfile">
+            <elementDefinition Id="6bdf362d-686d-464b-90c7-16d774c5c9c2" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b82ef456-f053-40bc-934b-cabc0302d7dd">
+                <propertyInstance Id="15872ccf-fe08-41ae-8a99-be34310cd346" name="ClrAttributes">
+                  <elementDefinition Id="bc14d5a3-886a-40ee-a0e3-17f52b6cac14" />
+                </propertyInstance>
+                <elementDefinition Id="1d477763-0284-4876-82d7-f0bd819d0638" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8391665a-2236-4f7c-bbe6-daeb6afa32f1">
+                <propertyInstance Id="8505431c-69fb-4ff9-aa2c-0816d223a73e" name="IsPartial" value="false">
+                  <elementDefinition Id="9d46e7b8-35b0-494c-bb1b-c5e7763cdc45" />
+                </propertyInstance>
+                <elementDefinition Id="e68beb1f-50f9-4708-971c-3f1e3af0f024" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="51df364a-5c43-42fa-8acf-d72b6f1bb928">
+                <propertyInstance Id="e22e4ff7-9727-46f2-b5a7-dcc43ec52f08" name="IsStatic" value="false">
+                  <elementDefinition Id="fcc9b518-8e78-46d4-9010-a5d4e777e053" />
+                </propertyInstance>
+                <elementDefinition Id="56214e27-be9c-4150-a25b-d76526afcb05" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9831d56b-4a93-4afc-899b-4b877a95ea18">
+                <propertyInstance Id="2a301d9c-c334-4830-aeb5-909c732e7ea5" name="IsUnsafe" value="false">
+                  <elementDefinition Id="18705210-974c-4b62-8227-f036898fc628" />
+                </propertyInstance>
+                <elementDefinition Id="fb6632af-0459-4ee3-abfc-1f725fce063b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="acf3b02a-3880-46bd-aebf-6de66c87e383">
+                <propertyInstance Id="de2221e0-d8d7-45b4-bc59-ba854eda6a0e" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="0bc7c7d9-4b5a-42c8-99b4-c88322abb7f2" />
+                </propertyInstance>
+                <elementDefinition Id="9d24c770-800f-4e25-b46f-c18b9f50b576" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="10bfb76c-1c03-4ccb-9b72-1a0ee2d8be06" />
+        <generalsInternal>
+          <generalization Id="13bf0b30-047f-4258-acfc-1f1493297585" isSubstitutable="false">
+            <classMoniker Id="1ebce2e5-f411-466e-80b4-6818cb40e297" LastKnownName="LeaveState" />
+            <elementDefinition Id="73b65aca-3bfc-41c7-8c3d-66babaa910d4" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="52f3b6fb-ec0f-4fce-8d4f-3fae07d4f35e" name="RejectedState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="6f52b014-d900-45b7-907d-435717939545" name="class" profile="CSharpProfile">
+            <elementDefinition Id="10d80414-2285-4ad5-846f-9b43d38754da" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a37021ff-e2a7-4448-95e4-223fd7bbaa5c">
+                <propertyInstance Id="931fb9a0-5747-4282-9cac-8fa0c1714db8" name="ClrAttributes">
+                  <elementDefinition Id="efabe056-66a6-4475-bb66-c9abc8608454" />
+                </propertyInstance>
+                <elementDefinition Id="fd76bb7d-ac8e-44f6-ac8b-4e78b5408157" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3cd6242d-28b1-4180-81c5-16f1464a4bb4">
+                <propertyInstance Id="2192d852-4880-496a-a509-475037216d35" name="IsPartial" value="false">
+                  <elementDefinition Id="f0747be8-5c32-4ba9-86ac-9a80805e13c1" />
+                </propertyInstance>
+                <elementDefinition Id="561990fb-19ef-4fe6-92c3-895416953b7e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ccfd4687-96db-4c9a-9948-26b0e2c39f49">
+                <propertyInstance Id="8ef1b8df-1b53-43ea-9b3e-d180f45e38f3" name="IsStatic" value="false">
+                  <elementDefinition Id="a33c3255-4fa9-428c-bfa6-b4118c7a5255" />
+                </propertyInstance>
+                <elementDefinition Id="a16e1cd4-c4c0-46a3-a91a-abf00d7fc366" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d799fbb8-8eef-4d92-b95a-80c3e578e3fc">
+                <propertyInstance Id="1547abf0-f6d9-45bd-b02e-e8b1fc3ef754" name="IsUnsafe" value="false">
+                  <elementDefinition Id="c2805744-388f-442c-8e20-debfe1260cea" />
+                </propertyInstance>
+                <elementDefinition Id="29ebbc6a-c2c2-4839-92f4-d02795d958b0" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3a89af82-d870-4e90-b579-d72b7ab2fc95">
+                <propertyInstance Id="8e8a44e5-a44a-4045-b6e1-9dd02ef3940a" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="79944309-96a2-409e-843d-981ca04c969d" />
+                </propertyInstance>
+                <elementDefinition Id="fa7bff6d-f3f7-489f-83dc-47194c47e8da" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="1018b0c7-b316-48b9-941a-077d1e3b7e1e" />
+        <generalsInternal>
+          <generalization Id="acd31b11-f32f-417e-b1c3-04afad5b82c9" isSubstitutable="false">
+            <classMoniker Id="1ebce2e5-f411-466e-80b4-6818cb40e297" LastKnownName="LeaveState" />
+            <elementDefinition Id="b9e120f4-7dbf-4828-8bf6-278c2820eb06" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="55a799c7-4e1f-49d7-8a71-9c0aafc18015" name="SubmittedState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="169fabe9-03f2-430c-b44e-ac22e11fa279" name="class" profile="CSharpProfile">
+            <elementDefinition Id="590fc331-5bed-4826-934e-f13b2da55f02" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="de80a221-fc0a-407d-a34c-309cb7e1a594">
+                <propertyInstance Id="7e9e9904-93d8-4dc3-a9f0-bdfde8462377" name="ClrAttributes">
+                  <elementDefinition Id="531ff15c-2d60-40ae-aa70-4c46f4a06cb2" />
+                </propertyInstance>
+                <elementDefinition Id="17c09c9b-e8af-41d7-af61-9a5a8e89c796" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d2b15ee1-5f63-4b56-b31b-b1c758e6ce2b">
+                <propertyInstance Id="c221185f-5e9a-4503-b68b-9e007d44c2f4" name="IsPartial" value="false">
+                  <elementDefinition Id="8997c106-135e-4f36-8167-e2cbbd59a320" />
+                </propertyInstance>
+                <elementDefinition Id="a6405ff7-bb6c-4cba-91a6-d7239e4bb995" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="79b03fa6-8266-4286-9b21-bb349c13d0c3">
+                <propertyInstance Id="481ca470-be74-4233-b1cb-af79f5967b4f" name="IsStatic" value="false">
+                  <elementDefinition Id="41bbb0ad-634a-420d-af26-929f3183bcf5" />
+                </propertyInstance>
+                <elementDefinition Id="4cae0ca4-e87a-4fc6-b217-75817f14b9e4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="71249798-67c3-4ae0-a456-8a0a7acb15fb">
+                <propertyInstance Id="36522cb4-859d-4560-a2d9-8b398dfd3736" name="IsUnsafe" value="false">
+                  <elementDefinition Id="decd6b12-e40c-4ac8-8311-2894884e7980" />
+                </propertyInstance>
+                <elementDefinition Id="901913a8-12a8-4b59-9628-b76058c261e9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d7566330-0ec6-4f6c-93dc-20aad1e23d83">
+                <propertyInstance Id="8f7a0288-2abe-4dd1-a037-c67f78860109" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="a39a405a-b955-4c4f-9c5b-7099ae00f85e" />
+                </propertyInstance>
+                <elementDefinition Id="4062338f-aeb3-4cdb-bbdf-d8de04cbe69f" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="b317dc3b-ac07-4e94-b02f-ca5716b5f734" />
+        <generalsInternal>
+          <generalization Id="89f6bebc-686d-4f5d-a763-e0bbad31b53f" isSubstitutable="false">
+            <classMoniker Id="1ebce2e5-f411-466e-80b4-6818cb40e297" LastKnownName="LeaveState" />
+            <elementDefinition Id="4ee9fd53-10b9-4a36-a3b3-7d1e683ad4ec" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="697c5645-c40f-403b-99cb-920b1da6b2fb" name="NoObjectionState" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="26e16f41-f39f-408d-99e6-75798ab937a2" name="class" profile="CSharpProfile">
+            <elementDefinition Id="a999d7d5-3c78-4a91-b061-37cac1b378eb" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fc88255a-de0b-4464-88d3-fca9f34520d9">
+                <propertyInstance Id="2d37a986-adb1-4a62-ab31-089c8b41c455" name="ClrAttributes">
+                  <elementDefinition Id="90ec7244-76ac-41c4-9f44-eb28ae2fa94d" />
+                </propertyInstance>
+                <elementDefinition Id="d7cfdf28-ff1a-4ce8-90f0-37f1f4bd785f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c08a2b94-84d8-4e5e-bed5-50cb05074400">
+                <propertyInstance Id="440d29e1-5849-4681-8cbd-1dfc8b489cae" name="IsPartial" value="false">
+                  <elementDefinition Id="39ce944f-11a9-4a5d-b1ca-d77e570f7aeb" />
+                </propertyInstance>
+                <elementDefinition Id="ffd5ba04-9273-4d51-b300-62a306d1a4c7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8a269575-7f11-4b50-b482-c71fce3cda06">
+                <propertyInstance Id="e2f4f4c8-cf8d-4f7e-b295-3c1beb3581dd" name="IsStatic" value="false">
+                  <elementDefinition Id="e18f766e-51c7-49d9-9b78-8be4f13e7f2e" />
+                </propertyInstance>
+                <elementDefinition Id="34d959fa-c6d0-4755-91ad-f68ba14dd68d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a1747033-4f0f-46d0-9416-7af968cf3bac">
+                <propertyInstance Id="97d029f7-f446-4230-9f64-cfbd2089dd66" name="IsUnsafe" value="false">
+                  <elementDefinition Id="fb4ddff0-ec82-4721-a062-0144d5b79160" />
+                </propertyInstance>
+                <elementDefinition Id="d2a59159-210a-4212-b39f-eeca050654fa" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a1b0c195-7d39-410e-879f-3e28800bfeeb">
+                <propertyInstance Id="571a62b4-e7d3-46e0-baab-13c34301d55e" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="731bf417-c375-4765-b81c-79236f6fe30a" />
+                </propertyInstance>
+                <elementDefinition Id="a7d76297-b3b0-4783-8754-2e5900bc63c8" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="f158ff95-e458-4d90-994f-22f88dbf3969" />
+        <generalsInternal>
+          <generalization Id="b6aa87ab-53d3-4100-853e-cb00f1f9eb6b" isSubstitutable="false">
+            <classMoniker Id="1ebce2e5-f411-466e-80b4-6818cb40e297" LastKnownName="LeaveState" />
+            <elementDefinition Id="c45f5953-a6e4-4369-87cf-bdc779031272" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="3ed7b3c3-71f5-417f-87c6-98c4369abd65" name="ModelingNidaLeave">
+    <elementDefinition Id="fd790f07-ed57-4dce-b556-4fa6572b5188" />
+  </package>
+</logicalClassDesignerModel>

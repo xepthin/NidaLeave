@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5bbe2e7c-ecf7-486d-93e0-cfa0a5fbaf59}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingNidaLeave</Name>
+    <RootNamespace>ModelingNidaLeave</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="LeaveBenefit.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LeaveBenefit.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LeaveBenefit.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="LeaveEntitlement.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LeaveEntitlement.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LeaveEntitlement.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="LeaveTransaction.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LeaveTransaction.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LeaveTransaction.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Person.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Person.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Person.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="DataType.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DataType.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DataType.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Organization.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Organization.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Organization.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\ModelingNidaLeave.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
