@@ -17,19 +17,19 @@ public class Eligibility
 		set;
 	}
 
-	private object religion
+	private string religion
 	{
 		get;
 		set;
 	}
 
-	private object lengthOfService
+	private int lengthOfService
 	{
 		get;
 		set;
 	}
 
-	private object marriage
+	private string marriage
 	{
 		get;
 		set;

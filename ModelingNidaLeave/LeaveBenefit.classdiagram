@@ -764,6 +764,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d872ffd8-df23-4966-b266-f78ad635a40c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="227113cc-0b01-43d4-86f1-04628097a86b" LastKnownName="String" />
+            </type_NamedElement>
           </property>
           <property Id="ed3cf2af-f3eb-4470-9e67-f9444491e9a4" name="lengthOfService" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>
@@ -816,6 +819,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="e2115105-3dc4-4c55-bf40-d6f54bb68d94" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a74a5f51-ef60-4e9b-98d9-d2c432d6b43f" LastKnownName="int" />
+            </type_NamedElement>
           </property>
           <property Id="66dc1209-ea36-4393-97a2-6e44180db889" name="marriage" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>
@@ -868,6 +874,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="34c4e88c-bff2-4a2b-bbfd-b71dcc4491bd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="227113cc-0b01-43d4-86f1-04628097a86b" LastKnownName="String" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
@@ -1559,11 +1568,6 @@
         <elementDefinition Id="633b02a6-ed5e-406f-8d17-0505c2e1e32a" />
       </referencedType>
     </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="cd9a2e15-437c-4c09-b5bc-683e63b7c2fa" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
-        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
-      </referencedType>
-    </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
       <class Id="a113aa99-e0eb-4c7f-8298-cd5e9e0ef9e6" name="Personnel" isAbstract="false" isLeaf="false" isActiveClass="false">
         <appliedStereotypesInternal>
@@ -1766,12 +1770,17 @@
             </appliedStereotypesInternal>
             <elementDefinition Id="2f4fdbc1-6bf1-4d0c-b672-3caedf3ab8f2" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="cd9a2e15-437c-4c09-b5bc-683e63b7c2fa" LastKnownName="Integer" />
+              <referencedTypeMoniker Id="8889a315-4c51-47a3-a836-e9c5aedcae82" LastKnownName="int" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="8889a315-4c51-47a3-a836-e9c5aedcae82" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="217de205-31df-47bd-a999-5f44c989b6f5" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="80f4a7e2-96c7-4aa6-8c11-986c7e8b5008" name="ModelingNidaLeave">
     <elementDefinition Id="fd790f07-ed57-4dce-b556-4fa6572b5188" />

@@ -11,25 +11,7 @@ using System.Text;
 
 public class Person
 {
-	public virtual IEnumerable<Marriage> Marriage
-	{
-		get;
-		set;
-	}
-
-	public virtual IEnumerable<PersonAcademicRank> PersonAcademicRank
-	{
-		get;
-		set;
-	}
-
-	public virtual PersonAcademicRank CurrentAcademicRank
-	{
-		get;
-		set;
-	}
-
-	public virtual IEnumerable<PersonName> PersonName
+	public virtual IEnumerable<Personnel> Personnel
 	{
 		get;
 		set;

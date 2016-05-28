@@ -10,7 +10,7 @@
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     <h4 class="modal-title" id="leaveTitle"></h4>
                 </div>
-                <div class="modal-body" style="height: 300px;">
+                <div class="modal-body" style="height: 280px;">
                     <div class="row form-group">
                         <div class="col-md-2 b-r text-right">
                             ชื่อ
@@ -54,6 +54,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row form-group">
+                        <div class="col-md-2 b-r text-right">
+                            หมายเหตุ
+                        </div>
+                        <div class="col-md-10">
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
@@ -75,7 +83,7 @@
                                             <tr>
                                                 <td>ชื่อ : นาย ทินกร ลือจันดา</td>
                                                 <td>ชื่อเล่น : ทิน</td>
-                                                <td rowspan="3" width="200px;">
+                                                <td rowspan="3" width="140px;">
                                                     <img class="img-rounded" src="img/a1.jpg" /></td>
                                             </tr>
                                             <tr>
@@ -309,13 +317,13 @@
         $("#workAge").text(getAge(d));
 
         $(document).ready(function () {
-            //leaveList();
+            leaveList();
         });
 
         var htmlBody = "";
         htmlBody += "";
 
-        $("#tbLeave tboody").append(htmlBody); 
+        $("#tbLeave tboody").append(htmlBody);
 
         function leaveRequest(leaveType) {
             $("#leaveTitle").text(leaveType);
@@ -340,8 +348,8 @@
                 type: 'POST',
                 contentType: 'application/json',
                 dataType: 'json',
-                data: {employeeNo:"Emp001"},
-                async : false,
+                data: null,
+                async: false,
                 success: function (result) {
                     vObj = $.parseJSON(result);
                 },
