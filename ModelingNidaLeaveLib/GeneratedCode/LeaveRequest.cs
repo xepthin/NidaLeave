@@ -11,7 +11,7 @@ using System.Text;
 
 public class LeaveRequest
 {
-	private TimeInterval leavePeriod
+	private TimeInterval effectivePeriod
 	{
 		get;
 		set;
@@ -23,10 +23,31 @@ public class LeaveRequest
 		set;
 	}
 
-	public virtual Personnel employee
+	public virtual IEnumerable<LeaveRequestStat> LeaveRequestStat
 	{
 		get;
 		set;
+	}
+
+	public virtual LeaveRequestStat States
+	{
+		get;
+		set;
+	}
+
+	public virtual void Submit()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual void Approve()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual void Reject()
+	{
+		throw new System.NotImplementedException();
 	}
 
 }

@@ -125,6 +125,8 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\inspinia.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="js\jquery-2.1.1.js" />
     <Content Include="js\jquery-ui-1.10.4.min.js" />
     <Content Include="js\jquery-ui.custom.min.js" />
@@ -227,6 +229,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lib_BAL\Lib_BAL.csproj">
+      <Project>{45463b44-1b9c-4162-bec0-cd66d638efd9}</Project>
+      <Name>Lib_BAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj">
       <Project>{d58aef4a-c229-48c4-9073-7fe7eacc6641}</Project>
       <Name>ModelingNidaLeaveLib</Name>

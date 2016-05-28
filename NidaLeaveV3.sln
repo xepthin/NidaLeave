@@ -9,6 +9,31 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingNidaLeaveLib", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NidaLeaveWeb", "NidaLeaveWeb\NidaLeaveWeb.csproj", "{9756E4CA-A272-465C-AD01-BCF6A9C5A0F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_BAL", "Lib_BAL\Lib_BAL.csproj", "{45463B44-1B9C-4162-BEC0-CD66D638EFD9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NidaLeaveWeb2", "NidaLeaveWeb2\", "{A9C3ED07-6675-4E92-86A7-003AFD7BCD4A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{45463b44-1b9c-4162-bec0-cd66d638efd9}|Lib_BAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7448"
+		Debug.AspNetCompiler.PhysicalPath = "NidaLeaveWeb2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7448\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7448"
+		Release.AspNetCompiler.PhysicalPath = "NidaLeaveWeb2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7448\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7448"
+		SlnRelativePath = "NidaLeaveWeb2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +52,14 @@ Global
 		{9756E4CA-A272-465C-AD01-BCF6A9C5A0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9756E4CA-A272-465C-AD01-BCF6A9C5A0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9756E4CA-A272-465C-AD01-BCF6A9C5A0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45463B44-1B9C-4162-BEC0-CD66D638EFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45463B44-1B9C-4162-BEC0-CD66D638EFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45463B44-1B9C-4162-BEC0-CD66D638EFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45463B44-1B9C-4162-BEC0-CD66D638EFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C3ED07-6675-4E92-86A7-003AFD7BCD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C3ED07-6675-4E92-86A7-003AFD7BCD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C3ED07-6675-4E92-86A7-003AFD7BCD4A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C3ED07-6675-4E92-86A7-003AFD7BCD4A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

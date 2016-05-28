@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Nida.Master" AutoEventWireup="true" CodeBehind="OnlineLeave.aspx.cs" Inherits="NidaLeaveWeb.OnlineLeave" %>
+<%@ Import Namespace="System.Web.Services" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -83,7 +84,7 @@
                                             <tr>
                                                 <td>ชื่อ : นาย ทินกร ลือจันดา</td>
                                                 <td>ชื่อเล่น : ทิน</td>
-                                                <td rowspan="3" width="140px;">
+                                                <td rowspan="3" style="width:140px;">
                                                     <img class="img-rounded" src="img/a1.jpg" /></td>
                                             </tr>
                                             <tr>
@@ -317,7 +318,7 @@
         $("#workAge").text(getAge(d));
 
         $(document).ready(function () {
-            leaveList();
+            leaveList("emp001");
         });
 
         var htmlBody = "";
@@ -339,24 +340,23 @@
             format: "dd/mm/yyyy"
         });
 
-        function leaveList() {
-            debugger
-            var url = "http://localhost:4568/OnlineLeave.aspx/GetLeaveList";
-
+        function leaveList(employeeNo) {
+            var url = "OnlineLeave.aspx/GetLeaveList";
             $.ajax({
+                type: "POST",
                 url: url,
-                type: 'POST',
-                contentType: 'application/json',
-                dataType: 'json',
-                data: null,
-                async: false,
-                success: function (result) {
-                    vObj = $.parseJSON(result);
-                },
-                error: function () {
+                data: '{name: "' + employeeNo + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccess,
+                failure: function(response) {
+                    alert(response.d);
                 }
             });
+        }
 
+        function OnSuccess(response) {
+            alert(response.d);
         }
     </script>
 </asp:Content>

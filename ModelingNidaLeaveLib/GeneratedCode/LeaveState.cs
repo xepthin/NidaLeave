@@ -11,7 +11,7 @@ using System.Text;
 
 public abstract class LeaveState
 {
-	public virtual LeaveState Approva()
+	public virtual LeaveState Approve()
 	{
 		throw new System.NotImplementedException();
 	}
