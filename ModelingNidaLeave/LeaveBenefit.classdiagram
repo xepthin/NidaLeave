@@ -1163,6 +1163,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="c3cf8fd2-4ebe-4e19-b24c-47acd9dcb24b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9904c912-2613-45be-a6ea-257e9aa698f5" LastKnownName="string" />
+            </type_NamedElement>
           </property>
           <property Id="a3a2d379-c1fd-4620-9444-a7da3c97cb53" name="numberOfApprovableDays" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>
@@ -1215,6 +1218,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="42f46754-97fa-47d6-bb17-6c12159990fb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a74a5f51-ef60-4e9b-98d9-d2c432d6b43f" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1559,6 +1565,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="bcb3178e-b71e-455c-aabb-8a974e282ae0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a74a5f51-ef60-4e9b-98d9-d2c432d6b43f" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1779,6 +1788,11 @@
     <packageHasNamedElement>
       <referencedType Id="8889a315-4c51-47a3-a836-e9c5aedcae82" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
         <elementDefinition Id="217de205-31df-47bd-a999-5f44c989b6f5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9904c912-2613-45be-a6ea-257e9aa698f5" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="1e3dfc2a-8ef6-4282-a8d0-4ec279b4abe8" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

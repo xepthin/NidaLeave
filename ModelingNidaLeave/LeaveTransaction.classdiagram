@@ -692,6 +692,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="267e4379-c976-40be-b935-5c2d892e9d92" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d6f54872-858a-464a-bc88-df74b03bcad1" LastKnownName="DateTime" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1208,6 +1211,11 @@
     <packageHasNamedElement>
       <referencedType Id="813a78ed-b2a8-470e-909b-258d0b10f1a3" name="TimeInterval" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::TimeInterval">
         <elementDefinition Id="0242b137-42ca-4bc4-82dd-9c63dea1e952" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d6f54872-858a-464a-bc88-df74b03bcad1" name="DateTime" isAbstract="false" isLeaf="false" cachedFullName="DateTime">
+        <elementDefinition Id="507553f6-aa3a-436c-9dba-04af1254a330" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

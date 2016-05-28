@@ -2638,6 +2638,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
           <property
             Id="1f01b379-379b-464f-b413-8239b3e0f2ae"
@@ -2708,6 +2714,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -6303,6 +6315,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1e3dfc2a-8ef6-4282-a8d0-4ec279b4abe8"
+                LastKnownName="string"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
           <property
             Id="42f46754-97fa-47d6-bb17-6c12159990fb"
@@ -6373,6 +6391,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -6855,6 +6879,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -8212,6 +8242,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
           <property
             Id="c4320d21-d306-4cc7-8d51-9659115c41b5"
@@ -8282,6 +8318,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
           <property
             Id="505a6fc3-2782-446f-ac47-3b1f9608a4e5"
@@ -9311,6 +9353,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="507553f6-aa3a-436c-9dba-04af1254a330"
+                LastKnownName="DateTime"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>

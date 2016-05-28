@@ -23,5 +23,11 @@ public class LeaveBenefit
 		set;
 	}
 
+	public virtual IEnumerable<LeaveEntitlement> LeaveEntitlement
+	{
+		get;
+		set;
+	}
+
 }
 

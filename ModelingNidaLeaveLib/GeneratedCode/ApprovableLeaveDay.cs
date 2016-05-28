@@ -11,13 +11,13 @@ using System.Text;
 
 public class ApprovableLeaveDay
 {
-	private object positionCategory
+	private string positionCategory
 	{
 		get;
 		set;
 	}
 
-	private object numberOfApprovableDays
+	private int numberOfApprovableDays
 	{
 		get;
 		set;

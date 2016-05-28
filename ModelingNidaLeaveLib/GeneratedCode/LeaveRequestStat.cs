@@ -11,7 +11,7 @@ using System.Text;
 
 public class LeaveRequestStat
 {
-	private object timeStamp
+	private DateTime timeStamp
 	{
 		get;
 		set;

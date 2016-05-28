@@ -11,9 +11,5 @@ using System.Text;
 
 public class SubmittedState : LeaveState
 {
-    public void ss()
-    {
-        Approve();
-    }
 }
 

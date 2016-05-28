@@ -879,6 +879,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="a03c23f1-1c15-4f37-9d69-a36dc2c796af" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
           <property Id="5c07ed15-737d-47ff-a843-649afe7a2710" name="carriedOverLeaveDays" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>
@@ -931,6 +934,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="c4320d21-d306-4cc7-8d51-9659115c41b5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
           <property Id="272e1357-75ea-4dfd-a95c-c6cf611c7b67" name="monthOfServiceLowerBound" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>

@@ -17,7 +17,19 @@ public class Personnel
 		set;
 	}
 
-	private object employeeNo
+	private int employeeNo
+	{
+		get;
+		set;
+	}
+
+	public virtual IEnumerable<LeaveRequest> LeaveRequest
+	{
+		get;
+		set;
+	}
+
+	public virtual IEnumerable<PersonnelLeaveBenefitAnnualSummary> leaveRecords
 	{
 		get;
 		set;

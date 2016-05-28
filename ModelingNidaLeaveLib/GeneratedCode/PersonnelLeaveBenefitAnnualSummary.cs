@@ -35,7 +35,7 @@ public class PersonnelLeaveBenefitAnnualSummary
 		set;
 	}
 
-	private object carriedOverLeaveDays
+	private int carriedOverLeaveDays
 	{
 		get;
 		set;
