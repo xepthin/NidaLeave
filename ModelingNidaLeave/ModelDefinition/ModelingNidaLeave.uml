@@ -26,6 +26,18 @@
           LastKnownLocation="ModelingNidaLeave.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="94ce9a99-523d-41be-8625-b98c9fbb9e96">
+      <body>Category
+  ดำรงตำแหน่ง
+  รักษาราชการ</body>
+      <annotatedElements>
+        <classMoniker
+          Id="23298c5c-f30b-482b-a43e-95a37f9d6bed"
+          LastKnownName="Appointment"
+          LastKnownLocation="ModelingNidaLeave.uml" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance
@@ -2169,82 +2181,6 @@
             </type_NamedElement>
           </property>
           <property
-            Id="1ee9f0c6-e8d6-48b2-84d4-768ace3deeb5"
-            name="effectivePeriod"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="3f2384a4-ecf7-4672-bcba-ffc41266cf18"
-                name="property"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="37c63d1d-94e1-4e0d-9ed1-c1c58417f32a">
-                    <propertyInstance
-                      Id="83d1ebcf-aba6-46ca-b662-54891a24592c"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8ecf8500-b4ec-485e-a6c0-ceb6e7810b2e">
-                    <propertyInstance
-                      Id="83e1ab17-86bf-4aaf-86e4-369041feb1df"
-                      name="Get"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3f0dfe36-102e-467a-8dab-8e1ca6df2e0f">
-                    <propertyInstance
-                      Id="129bdb27-8088-44a2-8d00-b51a3348e082"
-                      name="HasBody"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="9d3dfc35-51da-4f24-ba2c-5a19e85bf440">
-                    <propertyInstance
-                      Id="a54b5136-af6e-4b2a-98cd-4bae7e23ed10"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7562d7ce-742a-438d-916b-8090d9be3a97">
-                    <propertyInstance
-                      Id="9ddba68b-74ce-4cbc-b76b-0696b1d867aa"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="96b964e2-a0d2-4dd2-a830-e4643d354f1e">
-                    <propertyInstance
-                      Id="7335c0fa-990b-4dfb-8d8d-049dce701945"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e9334d3c-e9b2-46c8-9473-b09d9d0205e2">
-                    <propertyInstance
-                      Id="d871bc6b-36b9-474f-b850-eaa83d125e1d"
-                      name="Set"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="633b02a6-ed5e-406f-8d17-0505c2e1e32a"
-                LastKnownName="TimeInterval"
-                LastKnownLocation="ModelingNidaLeave.uml" />
-            </type_NamedElement>
-          </property>
-          <property
             Id="62daf54d-54d6-4745-8deb-eff44dd2d7e3"
             name="category"
             visibility="Private"
@@ -3209,6 +3145,84 @@
                       value="*" />
                   </upperValueInternal>
                 </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e013a36e-a7f2-4fc9-be60-25f4689d8af9"
+            isDerived="false"
+            sourceEndRoleName="Person"
+            targetEndRoleName="BloodGroup"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5fb6acd7-b7f1-4f2d-92c9-d077a1ec01a3"
+              LastKnownName="BloodGroup"
+              LastKnownLocation="ModelingNidaLeave.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2882aa68-d00d-4495-b07f-7c77af4fa79a"
+                  name="Person"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4a3ebebd-6422-4a17-8509-e16affca60ee"
+                  name="BloodGroup"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b3b8b2bd-aa79-465a-b27a-96da1328a9b6"
+            isDerived="false"
+            sourceEndRoleName="Person"
+            targetEndRoleName="Religion"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3a34d81f-819a-4581-b838-b264cc70f96e"
+              LastKnownName="Religion"
+              LastKnownLocation="ModelingNidaLeave.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9855750e-3bc3-4a50-9430-d5eda486a8b2"
+                  name="Person"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="098c42fc-3570-4829-9e98-e11716c3b311"
+                  name="Religion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
@@ -4218,9 +4232,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="1e3dfc2a-8ef6-4282-a8d0-4ec279b4abe8"
-                LastKnownName="string"
+              <classMoniker
+                Id="b9a2b149-cab4-4646-8786-ffaecc104d6c"
+                LastKnownName="MultilingualString"
                 LastKnownLocation="ModelingNidaLeave.uml" />
             </type_NamedElement>
           </property>
@@ -7780,6 +7794,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -7914,6 +7934,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -8048,6 +8074,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
           <property
             Id="2d18483c-8ad4-4232-81d4-219018cd1c26"
@@ -8118,6 +8150,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="217de205-31df-47bd-a999-5f44c989b6f5"
+                LastKnownName="int"
+                LastKnownLocation="ModelingNidaLeave.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>

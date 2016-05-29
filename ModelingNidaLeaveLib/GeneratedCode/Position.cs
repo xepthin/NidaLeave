@@ -23,12 +23,6 @@ public class Position
 		set;
 	}
 
-	private TimeInterval effectivePeriod
-	{
-		get;
-		set;
-	}
-
 	private string category
 	{
 		get;

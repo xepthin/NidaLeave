@@ -11,13 +11,13 @@ using System.Text;
 
 public class AnnualEntitlementWithCarriedOver
 {
-	private object leaveDays
+	private int leaveDays
 	{
 		get;
 		set;
 	}
 
-	private object carriedOverLeaveDays
+	private int carriedOverLeaveDays
 	{
 		get;
 		set;

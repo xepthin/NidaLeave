@@ -11,7 +11,7 @@ using System.Text;
 
 public class PersonName
 {
-	private string title
+	private MultilingualString title
 	{
 		get;
 		set;

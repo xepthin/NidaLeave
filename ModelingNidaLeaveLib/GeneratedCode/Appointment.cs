@@ -9,6 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/// <remarks>
+/// Category
+///   ดำรงตำแหน่ง
+///   รักษาราชการ
+/// </remarks>
 public class Appointment
 {
 	private TimeInterval effectivePeriod

@@ -11,20 +11,11 @@ using System.Text;
 
 public class SimpleEntitlement : LeaveEntitlement
 {
-	private object leaveDays
+	private int leaveDays
 	{
 		get;
 		set;
 	}
 
-    public override int DetermineCarriedOverLeaveDays(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override int DetermineLeaveEntitlement(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
 }
 

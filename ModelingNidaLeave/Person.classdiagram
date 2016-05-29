@@ -237,6 +237,38 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="1a5406f0-e338-4700-823b-58ff3e39bb1e" />
           </association>
+          <association Id="8e6ea42a-c04a-4b2b-9b74-29e165dbd470" isDerived="false" sourceEndRoleName="Person" targetEndRoleName="BloodGroup" isLeaf="false" isAbstract="false">
+            <classMoniker Id="48ac6f2d-df01-4f12-a99b-3c86986b15a2" LastKnownName="BloodGroup" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91f6b113-cbdf-4536-bce3-644d639e725b" name="Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2882aa68-d00d-4495-b07f-7c77af4fa79a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3cfb16a-5198-4a3c-966d-33d40b2d281c" name="BloodGroup" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4a3ebebd-6422-4a17-8509-e16affca60ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e013a36e-a7f2-4fc9-be60-25f4689d8af9" />
+          </association>
+          <association Id="3b9da35c-3f48-4ce3-a214-e638b41ee4a6" isDerived="false" sourceEndRoleName="Person" targetEndRoleName="Religion" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ceddf4d7-a8c2-44fe-876c-45cc55489921" LastKnownName="Religion" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1ad0dde0-0114-4e2a-b4eb-d0db2a237762" name="Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9855750e-3bc3-4a50-9430-d5eda486a8b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dfb56570-8eab-4556-ae69-3eb2326b1f79" name="Religion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="098c42fc-3570-4829-9e98-e11716c3b311" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b3b8b2bd-aa79-465a-b27a-96da1328a9b6" />
+          </association>
         </targetEnds>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -992,7 +1024,7 @@
             </appliedStereotypesInternal>
             <elementDefinition Id="d9a157c6-e3c2-49da-8b6f-8d97a07dc1c1" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="1a2b9c00-1d54-4721-802e-d3a5074fd18f" LastKnownName="string" />
+              <referencedTypeMoniker Id="ec4c47bf-d04e-43be-a2f8-e3988c198174" LastKnownName="MultilingualString" />
             </type_NamedElement>
           </property>
           <property Id="53543668-eb76-4eb6-b126-e81f34e82dcf" name="firstName" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -1163,11 +1195,6 @@
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
-    <packageHasNamedElement>
-      <referencedType Id="1a2b9c00-1d54-4721-802e-d3a5074fd18f" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
-        <elementDefinition Id="1e3dfc2a-8ef6-4282-a8d0-4ec279b4abe8" />
-      </referencedType>
-    </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="c04a14e7-7065-4300-9e0e-26491b027125" name="MultilingualString" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::MultilingualString">
         <elementDefinition Id="b9a2b149-cab4-4646-8786-ffaecc104d6c" />
@@ -1458,6 +1485,11 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="ca25b770-24df-44da-bfca-65c3dd293ae9" name="MultilingualString" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::MultilingualString">
+        <elementDefinition Id="b9a2b149-cab4-4646-8786-ffaecc104d6c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ec4c47bf-d04e-43be-a2f8-e3988c198174" name="MultilingualString" isAbstract="false" isLeaf="false" cachedFullName="ModelingNidaLeave::MultilingualString">
         <elementDefinition Id="b9a2b149-cab4-4646-8786-ffaecc104d6c" />
       </referencedType>
     </packageHasNamedElement>

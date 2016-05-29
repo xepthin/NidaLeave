@@ -527,6 +527,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="4b4cf136-3c60-433d-ac12-a63c49e72e34" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -629,6 +632,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="2796cb65-8f93-4ddd-9406-e5e001eba227" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -731,6 +737,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="15306e92-f9e3-4ed7-87e0-448025394820" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
           <property Id="bf47c0be-3029-4f11-9832-179ead5fe2ce" name="subSequentYearLeaveDays" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <appliedStereotypesInternal>
@@ -783,6 +792,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="2d18483c-8ad4-4232-81d4-219018cd1c26" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="31e82936-0410-4127-917e-c084a96079df" LastKnownName="int" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>

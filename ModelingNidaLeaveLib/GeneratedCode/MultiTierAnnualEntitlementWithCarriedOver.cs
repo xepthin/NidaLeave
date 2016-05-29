@@ -17,14 +17,5 @@ public class MultiTierAnnualEntitlementWithCarriedOver : LeaveEntitlement
 		set;
 	}
 
-    public override int DetermineCarriedOverLeaveDays(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override int DetermineLeaveEntitlement(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
 }
 

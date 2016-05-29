@@ -6,44 +6,40 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="ProjectPath = ..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2016-05-29T00:19:26" Importance="Medium" Text="ModelingNidaLeave's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingNidaLeave::LeaveEntitlement' -  (Class), 'ModelingNidaLeave::Eligibility' -  (Class), 'ModelingNidaLeave::PersonnelLeaveBenefitAnnualSummary' -  (Class), 'ModelingNidaLeave::LeaveBenefit' -  (Class), 'ModelingNidaLeave::ApprovableLeaveDay' -  (Class), 'ModelingNidaLeave::Personnel' -  (Class), 'ModelingNidaLeave::LeaveRequest' -  (Class) " />
-  <Message Timestamp="2016-05-29T00:19:27" Importance="Medium" Text="'ModelingNidaLeave::LeaveEntitlement' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\LeaveEntitlement.cs" />
-  <Message Timestamp="2016-05-29T00:19:27" Importance="Medium" Text="'ModelingNidaLeave::Eligibility' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\Eligibility.cs" />
-  <Message Timestamp="2016-05-29T00:19:27" Importance="Medium" Text="'ModelingNidaLeave::PersonnelLeaveBenefitAnnualSummary' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\PersonnelLeaveBenefitAnnualSummary.cs" />
-  <Message Timestamp="2016-05-29T00:19:28" Importance="Medium" Text="'ModelingNidaLeave::LeaveBenefit' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\LeaveBenefit.cs" />
-  <Message Timestamp="2016-05-29T00:19:28" Importance="Medium" Text="'ModelingNidaLeave::ApprovableLeaveDay' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\ApprovableLeaveDay.cs" />
-  <Message Timestamp="2016-05-29T00:19:28" Importance="Medium" Text="'ModelingNidaLeave::Personnel' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\Personnel.cs" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Medium" Text="'ModelingNidaLeave::LeaveRequest' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\LeaveRequest.cs" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="ProjectPath = ..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Medium" Text="ModelingNidaLeave's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingNidaLeave::LeaveEntitlement' -  (Class), 'ModelingNidaLeave::Eligibility' -  (Class), 'ModelingNidaLeave::PersonnelLeaveBenefitAnnualSummary' -  (Class), 'ModelingNidaLeave::LeaveBenefit' -  (Class), 'ModelingNidaLeave::ApprovableLeaveDay' -  (Class), 'ModelingNidaLeave::Personnel' -  (Class), 'ModelingNidaLeave::LeaveRequest' -  (Class) " />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::LeaveEntitlement' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::Eligibility' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::PersonnelLeaveBenefitAnnualSummary' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::LeaveBenefit' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::ApprovableLeaveDay' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:29" Importance="Diagnostic" Text="'ModelingNidaLeave::Personnel' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:30" Importance="Diagnostic" Text="'ModelingNidaLeave::LeaveRequest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="The selection included 7 elements which were not bound to a template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
-  <Message Timestamp="2016-05-29T00:19:31" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="ProjectPath = ..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-05-29T09:37:55" Importance="Medium" Text="ModelingNidaLeave's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingNidaLeave::LeaveEntitlement' -  (Class), 'ModelingNidaLeave::MultiTierAnnualEntitlementWithCarriedOver' -  (Class), 'ModelingNidaLeave::SimpleAnnualEntitlement' -  (Class), 'ModelingNidaLeave::SimpleEntitlement' -  (Class), 'ModelingNidaLeave::TwoTierAnnaulEntitlement' -  (Class), 'ModelingNidaLeave::AnnualEntitlementWithCarriedOver' -  (Class) " />
+  <Message Timestamp="2016-05-29T09:37:56" Importance="Medium" Text="'ModelingNidaLeave::LeaveEntitlement' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\LeaveEntitlement.cs" />
+  <Message Timestamp="2016-05-29T09:37:56" Importance="Medium" Text="'ModelingNidaLeave::MultiTierAnnualEntitlementWithCarriedOver' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\MultiTierAnnualEntitlementWithCarriedOver.cs" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Medium" Text="'ModelingNidaLeave::SimpleAnnualEntitlement' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\SimpleAnnualEntitlement.cs" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Medium" Text="'ModelingNidaLeave::SimpleEntitlement' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\SimpleEntitlement.cs" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Medium" Text="'ModelingNidaLeave::TwoTierAnnaulEntitlement' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\TwoTierAnnaulEntitlement.cs" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Medium" Text="'ModelingNidaLeave::AnnualEntitlementWithCarriedOver' -  (Class) : success (file replaced) - C:\D\NIDA\OOAD\NidaLeaveV3\ModelingNidaLeaveLib\GeneratedCode\AnnualEntitlementWithCarriedOver.cs" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="ProjectPath = ..\ModelingNidaLeaveLib\ModelingNidaLeaveLib.csproj" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Medium" Text="ModelingNidaLeave's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingNidaLeave::LeaveEntitlement' -  (Class), 'ModelingNidaLeave::MultiTierAnnualEntitlementWithCarriedOver' -  (Class), 'ModelingNidaLeave::SimpleAnnualEntitlement' -  (Class), 'ModelingNidaLeave::SimpleEntitlement' -  (Class), 'ModelingNidaLeave::TwoTierAnnaulEntitlement' -  (Class), 'ModelingNidaLeave::AnnualEntitlementWithCarriedOver' -  (Class) " />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="'ModelingNidaLeave::LeaveEntitlement' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:57" Importance="Diagnostic" Text="'ModelingNidaLeave::MultiTierAnnualEntitlementWithCarriedOver' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'ModelingNidaLeave::SimpleAnnualEntitlement' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'ModelingNidaLeave::SimpleEntitlement' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'ModelingNidaLeave::TwoTierAnnaulEntitlement' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'ModelingNidaLeave::AnnualEntitlementWithCarriedOver' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="The selection included 5 elements which were not bound to a template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'e4204bfe-38f7-4ba0-a1ee-e4c9c1c110e9' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'555d59d5-00a0-4b2d-99f2-f6ba9a478abf' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'a491146e-1b9a-4ab9-824a-78d493dad0c7' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'7a59fbc7-c323-4834-a3de-0677b520a856' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="Diagnostic" Text="'ModelingNidaLeave::' -  (Association): no bound template." />
+  <Message Timestamp="2016-05-29T09:37:58" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>

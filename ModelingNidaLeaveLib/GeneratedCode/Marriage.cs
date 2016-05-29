@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/// <remarks>effectivePeriod of any two marriages of the same husband or wife must not overlapped</remarks>
 public class Marriage
 {
 	private string licenseNo

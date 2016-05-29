@@ -23,13 +23,19 @@ public class Personnel
 		set;
 	}
 
-	public virtual IEnumerable<LeaveRequest> LeaveRequest
+	public virtual IEnumerable<Appointment> Appointment
 	{
 		get;
 		set;
 	}
 
-	public virtual IEnumerable<PersonnelLeaveBenefitAnnualSummary> leaveRecords
+	public virtual PersonnelCategory PersonnelCategory
+	{
+		get;
+		set;
+	}
+
+	public virtual Person Person
 	{
 		get;
 		set;

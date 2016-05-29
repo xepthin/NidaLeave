@@ -11,26 +11,17 @@ using System.Text;
 
 public class TwoTierAnnaulEntitlement : LeaveEntitlement
 {
-	private object firstYearLeaveDays
+	private int firstYearLeaveDays
 	{
 		get;
 		set;
 	}
 
-	private object subSequentYearLeaveDays
+	private int subSequentYearLeaveDays
 	{
 		get;
 		set;
 	}
 
-    public override int DetermineCarriedOverLeaveDays(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override int DetermineLeaveEntitlement(DateTime onDate, Personnel personnel)
-    {
-        throw new NotImplementedException();
-    }
 }
 
